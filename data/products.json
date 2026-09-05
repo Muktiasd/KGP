@@ -6,7 +6,6 @@
     "badge": "Produk Unggulan",
     "price": 25000,
     "unit": "pcs",
-    "minOrder": "Min. 100 pcs",
     "short": "Produksi custom untuk branding & corporate — bahan premium, cetak tajam.",
     "full": "Paper bag + box corporate full custom untuk kebutuhan branding perusahaan, souvenir, dan hampers. Pilih bahan art carton / ivory, laminasi doff / glossy, tali premium, dan desain sesuai brand book kamu.",
     "specs": [
@@ -26,7 +25,6 @@
     "badge": "Best Seller",
     "price": 185000,
     "unit": "pcs",
-    "minOrder": "Min. 20 pcs",
     "short": "Mengabadikan momen berharga dalam kualitas yang tahan lama.",
     "full": "Album kenangan sekolah / instansi dengan hard cover premium, laminasi, dan cetak isi full colour. Termasuk layanan layout dan proofing sebelum cetak massal.",
     "specs": [
@@ -46,7 +44,6 @@
     "badge": "Promo",
     "price": 35000,
     "unit": "pcs",
-    "minOrder": "Min. 50 pcs",
     "short": "Kalender meja custom yang elegan & kokoh — cocok untuk promosi bisnis.",
     "full": "Kalender meja dudukan hard cover + spiral kawat dengan 12 halaman full colour. Media promosi yang dipakai klien sepanjang tahun di atas meja kerja.",
     "specs": [
@@ -66,7 +63,6 @@
     "badge": "",
     "price": 85000,
     "unit": "blok",
-    "minOrder": "Min. 5 blok",
     "short": "Untuk administrasi bisnis yang lebih rapi dan profesional.",
     "full": "Nota NCR 2–3 rangkap dengan nomorator, porporasi, dan cover. Cocok untuk toko, klinik, bengkel, travel, dan UMKM.",
     "specs": [
@@ -86,7 +82,6 @@
     "badge": "Unik",
     "price": 18000,
     "unit": "pcs",
-    "minOrder": "Min. 50 pcs",
     "short": "Tampilkan wajah, karakter, atau brand di paper bag yang personal & berkesan.",
     "full": "Paper bag custom ilustrasi wajah / karakter untuk wedding souvenir, birthday, coffee shop, dan beauty brand. Desain dibantu tim kami sampai Approved.",
     "specs": [
@@ -106,7 +101,6 @@
     "badge": "Best Seller",
     "price": 500,
     "unit": "pcs",
-    "minOrder": "Min. 500 pcs",
     "short": "Untuk branding produk, kemasan, dan kebutuhan promosi.",
     "full": "Sticker vinyl / chromo / transparan, kiss-cut atau die-cut, laminasi doff / glossy. Tahan air tersedia untuk produk makanan, minuman, dan skincare.",
     "specs": [
@@ -126,7 +120,6 @@
     "badge": "",
     "price": 45000,
     "unit": "meter",
-    "minOrder": "Min. 1 meter",
     "short": "Solusi promosi indoor maupun outdoor dengan hasil cetak tajam.",
     "full": "Cetak MMT / banner 280–340 gsm untuk grand opening, promosi toko, dan event outdoor. Warna tajam, bahan tebal, finishing mata ayam gratis.",
     "specs": [
@@ -146,7 +139,6 @@
     "badge": "Eksklusif",
     "price": 120000,
     "unit": "pcs",
-    "minOrder": "Min. 1 pcs",
     "short": "Penghargaan & kenang-kenangan yang terlihat lebih eksklusif.",
     "full": "Plakat akrilik UV print + box eksklusif untuk penghargaan karyawan, lomba, wisuda, dan kerjasama corporate. Grafir laser tersedia.",
     "specs": [
@@ -166,7 +158,6 @@
     "badge": "",
     "price": 8000,
     "unit": "pcs",
-    "minOrder": "Min. 50 pcs",
     "short": "Merchandise custom untuk brand, komunitas, maupun event spesial.",
     "full": "Gantungan kunci akrilik 2 sisi dengan cutting laser presisi. Cocok untuk souvenir event, merchandise komunitas, dan bundling produk.",
     "specs": [
@@ -186,7 +177,6 @@
     "badge": "Praktis",
     "price": 55000,
     "unit": "pcs",
-    "minOrder": "Min. 1 pcs",
     "short": "Solusi pembayaran digital yang praktis + memperkuat branding di meja kasir.",
     "full": "Standing QRIS akrilik custom logo usaha. Bikin meja kasir terlihat profesional dan mempercepat transaksi non-tunai.",
     "specs": [
@@ -206,7 +196,6 @@
     "badge": "",
     "price": 175000,
     "unit": "paket",
-    "minOrder": "Sudah + rangka",
     "short": "Media promosi event yang praktis dibawa & dipasang di mana saja.",
     "full": "X-banner 60×160 dan roll up 85×200 + tas jinjing. Cocok untuk pameran, seminar, store branding, dan pendaftaran.",
     "specs": [
@@ -226,7 +215,6 @@
     "badge": "",
     "price": 120000,
     "unit": "meter",
-    "minOrder": "Desain gratis",
     "short": "Backdrop panggung & photobooth untuk wedding, seminar, dan gathering.",
     "full": "Cetak backdrop MMT / albatros lebar hingga 5 meter tanpa sambungan terlihat, plus sewa rangka tersedia untuk area Banjarbaru–Banjarmasin.",
     "specs": [
@@ -246,7 +234,6 @@
     "badge": "",
     "price": 5000,
     "unit": "pcs",
-    "minOrder": "Min. 100 pcs",
     "short": "Nomor dada lomba lari / sepeda yang kuat & anti sobek.",
     "full": "BIB number art paper / tyvek anti air dengan nomor urut, logo sponsor, dan lubang tali. Dikerjakan cepat untuk deadline event.",
     "specs": [
@@ -266,7 +253,6 @@
     "badge": "",
     "price": 750,
     "unit": "pcs",
-    "minOrder": "Min. 1000 pcs",
     "short": "Kupon doorprize, voucher makan, dan tiket event dengan nomor & porporasi.",
     "full": "Kupon art paper dengan nomor seri, porporasi sobek, dan opsi gosok berhadiah untuk event dan promosi.",
     "specs": [
@@ -286,7 +272,6 @@
     "badge": "",
     "price": 40000,
     "unit": "meter",
-    "minOrder": "Gratis desain simpel",
     "short": "Untuk kebutuhan kantor, sekolah, komunitas & sosialisasi program.",
     "full": "Spanduk sosialisasi program pemerintah, PPDB sekolah, dan kampanye komunitas. Cetak besar cepat dengan warna konsisten.",
     "specs": [
@@ -306,7 +291,6 @@
     "badge": "",
     "price": 850,
     "unit": "pcs",
-    "minOrder": "Min. 1000 pcs",
     "short": "Media promosi cetak yang tetap efektif untuk traffic offline.",
     "full": "Brosur A5/A4 art paper 150 gsm full colour 2 sisi untuk launching produk, PPDB, dan promo toko.",
     "specs": [
@@ -326,7 +310,6 @@
     "badge": "",
     "price": null,
     "unit": "",
-    "minOrder": "Tanya Harga",
     "short": "Cetak buku profil, majalah sekolah, dan company profile.",
     "full": "Cetak buku soft/hard cover, jilid perfect binding / jahit, untuk sekolah, kampus, dan instansi. Proof digital sebelum naik cetak.",
     "specs": [
@@ -346,7 +329,6 @@
     "badge": "",
     "price": 10000,
     "unit": "pcs",
-    "minOrder": "Min. 20 pcs",
     "short": "Sertifikat resmi dengan kertas premium & cetak nama variabel.",
     "full": "Sertifikat blues white / jasmine + print nama variabel (mail merge) untuk wisuda, pelatihan, dan penghargaan.",
     "specs": [
@@ -366,7 +348,6 @@
     "badge": "",
     "price": 15000,
     "unit": "pcs",
-    "minOrder": "Min. 20 pcs",
     "short": "ID karyawan, panitia, dan pelajar — rapi & profesional.",
     "full": "ID card PVC + lanyard sablon dengan data variabel foto & nama. Cocok untuk perusahaan, event, dan sekolah.",
     "specs": [
@@ -386,7 +367,6 @@
     "badge": "",
     "price": 75000,
     "unit": "box",
-    "minOrder": "Isi 100 pcs",
     "short": "Kesan pertama yang mewah untuk relasi bisnis kamu.",
     "full": "Kartu nama art carton 310 gsm + laminasi doff, opsi spot UV & foil emas untuk kesan premium.",
     "specs": [
@@ -406,7 +386,6 @@
     "badge": "Best Seller",
     "price": null,
     "unit": "",
-    "minOrder": "Tanya Harga",
     "short": "Box makanan, skincare, dan retail dengan konstruksi kokoh.",
     "full": "Custom box ivory / duplex / corrugated dengan pisau pond custom. Termasuk dieline, proofing, dan finishing laminasi + spot UV.",
     "specs": [
@@ -426,7 +405,6 @@
     "badge": "",
     "price": 22000,
     "unit": "pcs",
-    "minOrder": "Min. 50 pcs",
     "short": "Kalender dinding branding yang dipakai setahun penuh.",
     "full": "Kalender dinding A3+/A2 6–12 lembar + spiral / klep. Media branding awet untuk corporate dan instansi.",
     "specs": [
@@ -446,7 +424,6 @@
     "badge": "Premium",
     "price": 250000,
     "unit": "paket",
-    "minOrder": "Sudah + box",
     "short": "Penghargaan premium dengan box beludru eksklusif.",
     "full": "Plakat akrilik / resin custom + box beludru merah untuk apresiasi direksi, perpisahan, dan penghargaan corporate — seperti project KFC & BNI kami.",
     "specs": [
@@ -466,7 +443,6 @@
     "badge": "",
     "price": 90000,
     "unit": "meter",
-    "minOrder": "Min. 1 meter",
     "short": "Branding kendaraan, etalase, dan papan nama yang tahan cuaca.",
     "full": "Stiker vinyl + laminasi UV untuk branding mobil, motor, kaca ruko, dan papan nama outdoor yang tahan 2–3 tahun.",
     "specs": [
