@@ -4,7 +4,7 @@
 const KGP_PRODUCTS = [
   {
     id: "paper-bag-box-corporate", name: "Paper Bag + Box Corporate Custom", category: "packaging",
-    badge: "Produk Unggulan", price: 25000, unit: "pcs", minOrder: "Min. 100 pcs",
+    badge: "Produk Unggulan", price: 25000, unit: "pcs",
     short: "Produksi custom untuk branding & corporate — bahan premium, cetak tajam.",
     full: "Paper bag + box corporate full custom untuk kebutuhan branding perusahaan, souvenir, dan hampers. Pilih bahan art carton / ivory, laminasi doff / glossy, tali premium, dan desain sesuai brand book kamu.",
     specs: ["Bahan art carton 230–310 gsm", "Laminasi doff / glossy", "Tali kur / pita satin", "Sablon & full colour"],
@@ -13,7 +13,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "album-kenangan", name: "Album Kenangan Hard Cover", category: "instansi",
-    badge: "Best Seller", price: 185000, unit: "pcs", minOrder: "Min. 20 pcs",
+    badge: "Best Seller", price: 185000, unit: "pcs",
     short: "Mengabadikan momen berharga dalam kualitas yang tahan lama.",
     full: "Album kenangan sekolah / instansi dengan hard cover premium, laminasi, dan cetak isi full colour. Termasuk layanan layout dan proofing sebelum cetak massal.",
     specs: ["Hard cover + laminasi", "Isi art paper full colour", "Custom nama & logo sekolah", "Jahit benang / binding"],
@@ -22,7 +22,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "kalender-meja", name: "Kalender Meja Hard Cover Spiral", category: "corporate",
-    badge: "Promo", price: 35000, unit: "pcs", minOrder: "Min. 50 pcs",
+    badge: "Promo", price: 35000, unit: "pcs",
     short: "Kalender meja custom yang elegan & kokoh — cocok untuk promosi bisnis.",
     full: "Kalender meja dudukan hard cover + spiral kawat dengan 12 halaman full colour. Media promosi yang dipakai klien sepanjang tahun di atas meja kerja.",
     specs: ["Dudukan hard cover", "Spiral kawat premium", "12 bulan + cover custom", "Ukuran A5 / custom"],
@@ -31,7 +31,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "nota-kwitansi", name: "Nota / Kwitansi NCR", category: "administrasi",
-    badge: "", price: 85000, unit: "blok", minOrder: "Min. 5 blok",
+    badge: "", price: 85000, unit: "blok",
     short: "Untuk administrasi bisnis yang lebih rapi dan profesional.",
     full: "Nota NCR 2–3 rangkap dengan nomorator, porporasi, dan cover. Cocok untuk toko, klinik, bengkel, travel, dan UMKM.",
     specs: ["NCR 2/3 rangkap", "Nomorator & porporasi", "Ukuran 1/2 folio / custom", "Cover + jilid blok"],
@@ -40,7 +40,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "paper-bag-wajah", name: "Paper Bag Custom Wajah / Karakter", category: "packaging",
-    badge: "Unik", price: 18000, unit: "pcs", minOrder: "Min. 50 pcs",
+    badge: "Unik", price: 18000, unit: "pcs",
     short: "Tampilkan wajah, karakter, atau brand di paper bag yang personal & berkesan.",
     full: "Paper bag custom ilustrasi wajah / karakter untuk wedding souvenir, birthday, coffee shop, dan beauty brand. Desain dibantu tim kami sampai Approved.",
     specs: ["Ilustrasi custom", "Bahan craft / art carton", "Full colour", "Tali premium"],
@@ -49,7 +49,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "sticker-label", name: "Sticker Label / Lembaran", category: "bisnis",
-    badge: "Best Seller", price: 500, unit: "pcs", minOrder: "Min. 500 pcs",
+    badge: "Best Seller", price: 500, unit: "pcs",
     short: "Untuk branding produk, kemasan, dan kebutuhan promosi.",
     full: "Sticker vinyl / chromo / transparan, kiss-cut atau die-cut, laminasi doff / glossy. Tahan air tersedia untuk produk makanan, minuman, dan skincare.",
     specs: ["Vinyl / chromo / transparan", "Kiss-cut & die-cut rapi", "Laminasi anti air", "Roll / lembaran"],
@@ -58,7 +58,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "banner", name: "Banner Indoor & Outdoor", category: "bisnis",
-    badge: "", price: 45000, unit: "meter", minOrder: "Min. 1 meter",
+    badge: "", price: 45000, unit: "meter",
     short: "Solusi promosi indoor maupun outdoor dengan hasil cetak tajam.",
     full: "Cetak MMT / banner 280–340 gsm untuk grand opening, promosi toko, dan event outdoor. Warna tajam, bahan tebal, finishing mata ayam gratis.",
     specs: ["Flexi 280 / 340 gsm", "Indoor (high-res) & outdoor", "Mata ayam gratis", "Bisa pasang area Banjarbaru"],
@@ -67,7 +67,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "plakat-akrilik", name: "Plakat Akrilik Custom", category: "corporate",
-    badge: "Eksklusif", price: 120000, unit: "pcs", minOrder: "Min. 1 pcs",
+    badge: "Eksklusif", price: 120000, unit: "pcs",
     short: "Penghargaan & kenang-kenangan yang terlihat lebih eksklusif.",
     full: "Plakat akrilik UV print + box eksklusif untuk penghargaan karyawan, lomba, wisuda, dan kerjasama corporate. Grafir laser tersedia.",
     specs: ["Akrilik 5–10 mm", "UV print / grafir laser", "Box eksklusif", "Desain gratis"],
@@ -76,7 +76,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "ganci-akrilik", name: "Ganci Akrilik Custom", category: "merchandise",
-    badge: "", price: 8000, unit: "pcs", minOrder: "Min. 50 pcs",
+    badge: "", price: 8000, unit: "pcs",
     short: "Merchandise custom untuk brand, komunitas, maupun event spesial.",
     full: "Gantungan kunci akrilik 2 sisi dengan cutting laser presisi. Cocok untuk souvenir event, merchandise komunitas, dan bundling produk.",
     specs: ["Akrilik 3–5 mm", "Cetak 2 sisi", "Cutting laser presisi", "Ring stainless"],
@@ -85,7 +85,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "standing-qris", name: "Standing QRIS Akrilik", category: "bisnis",
-    badge: "Praktis", price: 55000, unit: "pcs", minOrder: "Min. 1 pcs",
+    badge: "Praktis", price: 55000, unit: "pcs",
     short: "Solusi pembayaran digital yang praktis + memperkuat branding di meja kasir.",
     full: "Standing QRIS akrilik custom logo usaha. Bikin meja kasir terlihat profesional dan mempercepat transaksi non-tunai.",
     specs: ["Akrilik premium", "QR anti luntur", "Custom logo & warna", "Base kokoh"],
@@ -94,7 +94,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "x-banner", name: "X-Banner + Roll Up Banner", category: "event",
-    badge: "", price: 175000, unit: "paket", minOrder: "Sudah + rangka",
+    badge: "", price: 175000, unit: "paket",
     short: "Media promosi event yang praktis dibawa & dipasang di mana saja.",
     full: "X-banner 60×160 dan roll up 85×200 + tas jinjing. Cocok untuk pameran, seminar, store branding, dan pendaftaran.",
     specs: ["Bahan albatros / flexi", "Rangka aluminium", "Tas jinjing", "Cetak 1 hari jadi*"],
@@ -103,7 +103,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "backdrop", name: "Backdrop Event / Photobooth", category: "event",
-    badge: "", price: 120000, unit: "meter", minOrder: "Desain gratis",
+    badge: "", price: 120000, unit: "meter",
     short: "Backdrop panggung & photobooth untuk wedding, seminar, dan gathering.",
     full: "Cetak backdrop MMT / albatros lebar hingga 5 meter tanpa sambungan terlihat, plus sewa rangka tersedia untuk area Banjarbaru–Banjarmasin.",
     specs: ["Lebar hingga 5 m", "MMT / albatros", "Finishing lipat + mata ayam", "Sewa rangka tersedia"],
@@ -112,7 +112,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "nomor-dada", name: "Nomor Dada / BIB Lari", category: "event",
-    badge: "", price: 5000, unit: "pcs", minOrder: "Min. 100 pcs",
+    badge: "", price: 5000, unit: "pcs",
     short: "Nomor dada lomba lari / sepeda yang kuat & anti sobek.",
     full: "BIB number art paper / tyvek anti air dengan nomor urut, logo sponsor, dan lubang tali. Dikerjakan cepat untuk deadline event.",
     specs: ["Bahan anti sobek", "Nomor urut otomatis", "Logo sponsor", "Express H-3 bisa"],
@@ -121,7 +121,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "kupon-voucher", name: "Kupon / Voucher Undian", category: "event",
-    badge: "", price: 750, unit: "pcs", minOrder: "Min. 1000 pcs",
+    badge: "", price: 750, unit: "pcs",
     short: "Kupon doorprize, voucher makan, dan tiket event dengan nomor & porporasi.",
     full: "Kupon art paper dengan nomor seri, porporasi sobek, dan opsi gosok berhadiah untuk event dan promosi.",
     specs: ["Nomor seri", "Porporasi", "Art paper 150 gsm", "Opsi gosok / hologram"],
@@ -130,7 +130,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "spanduk", name: "Spanduk / MMT Outdoor", category: "instansi",
-    badge: "", price: 40000, unit: "meter", minOrder: "Gratis desain simpel",
+    badge: "", price: 40000, unit: "meter",
     short: "Untuk kebutuhan kantor, sekolah, komunitas & sosialisasi program.",
     full: "Spanduk sosialisasi program pemerintah, PPDB sekolah, dan kampanye komunitas. Cetak besar cepat dengan warna konsisten.",
     specs: ["Flexi Korea / China", "Ukuran bebas", "Desain dibantu", "Lipat + mata ayam"],
@@ -139,7 +139,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "brosur", name: "Brosur & Leaflet", category: "bisnis",
-    badge: "", price: 850, unit: "pcs", minOrder: "Min. 1000 pcs",
+    badge: "", price: 850, unit: "pcs",
     short: "Media promosi cetak yang tetap efektif untuk traffic offline.",
     full: "Brosur A5/A4 art paper 150 gsm full colour 2 sisi untuk launching produk, PPDB, dan promo toko.",
     specs: ["A5 / A4 / lipat 3", "Art paper 150 gsm", "Full colour 2 sisi", "Potong rapi"],
@@ -148,7 +148,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "buku-majalah", name: "Buku & Majalah / Buku Kenangan", category: "instansi",
-    badge: "", price: null, unit: "", minOrder: "Tanya Harga",
+    badge: "", price: null, unit: "",
     short: "Cetak buku profil, majalah sekolah, dan company profile.",
     full: "Cetak buku soft/hard cover, jilid perfect binding / jahit, untuk sekolah, kampus, dan instansi. Proof digital sebelum naik cetak.",
     specs: ["Soft / hard cover", "HVS / art paper", "Perfect / jahit benang", "ISBN-ready layout"],
@@ -157,7 +157,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "sertifikat", name: "Sertifikat & Piagam", category: "instansi",
-    badge: "", price: 10000, unit: "pcs", minOrder: "Min. 20 pcs",
+    badge: "", price: 10000, unit: "pcs",
     short: "Sertifikat resmi dengan kertas premium & cetak nama variabel.",
     full: "Sertifikat blues white / jasmine + print nama variabel (mail merge) untuk wisuda, pelatihan, dan penghargaan.",
     specs: ["Kertas jasmine / BW", "Print nama variabel", "Foil emas tersedia", "Map sertifikat tersedia"],
@@ -166,7 +166,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "id-card", name: "ID Card + Lanyard", category: "instansi",
-    badge: "", price: 15000, unit: "pcs", minOrder: "Min. 20 pcs",
+    badge: "", price: 15000, unit: "pcs",
     short: "ID karyawan, panitia, dan pelajar — rapi & profesional.",
     full: "ID card PVC + lanyard sablon dengan data variabel foto & nama. Cocok untuk perusahaan, event, dan sekolah.",
     specs: ["PVC 0,76 mm", "Lanyard sablon", "Data variabel", "Holder + holder custom"],
@@ -175,7 +175,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "kartu-nama", name: "Kartu Nama Premium", category: "bisnis",
-    badge: "", price: 75000, unit: "box", minOrder: "Isi 100 pcs",
+    badge: "", price: 75000, unit: "box",
     short: "Kesan pertama yang mewah untuk relasi bisnis kamu.",
     full: "Kartu nama art carton 310 gsm + laminasi doff, opsi spot UV & foil emas untuk kesan premium.",
     specs: ["310 gsm", "Laminasi doff/glossy", "Spot UV / foil", "Sudut tumpul tersedia"],
@@ -184,7 +184,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "box-kemasan", name: "Dus / Box Kemasan Produk", category: "packaging",
-    badge: "Best Seller", price: null, unit: "", minOrder: "Tanya Harga",
+    badge: "Best Seller", price: null, unit: "",
     short: "Box makanan, skincare, dan retail dengan konstruksi kokoh.",
     full: "Custom box ivory / duplex / corrugated dengan pisau pond custom. Termasuk dieline, proofing, dan finishing laminasi + spot UV.",
     specs: ["Ivory / duplex / corrugated", "Pisau pond custom", "Laminasi + window tersedia", "Food grade"],
@@ -193,7 +193,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "kalender-dinding", name: "Kalender Dinding & Poster", category: "corporate",
-    badge: "", price: 22000, unit: "pcs", minOrder: "Min. 50 pcs",
+    badge: "", price: 22000, unit: "pcs",
     short: "Kalender dinding branding yang dipakai setahun penuh.",
     full: "Kalender dinding A3+/A2 6–12 lembar + spiral / klep. Media branding awet untuk corporate dan instansi.",
     specs: ["A3+ / A2", "6 / 12 lembar", "Spiral + gantungan", "Full custom desain"],
@@ -202,7 +202,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "plakat-kayu-box", name: "Plakat Kayu + Box Beludru", category: "corporate",
-    badge: "Premium", price: 250000, unit: "paket", minOrder: "Sudah + box",
+    badge: "Premium", price: 250000, unit: "paket",
     short: "Penghargaan premium dengan box beludru eksklusif.",
     full: "Plakat akrilik / resin custom + box beludru merah untuk apresiasi direksi, perpisahan, dan penghargaan corporate — seperti project KFC & BNI kami.",
     specs: ["Akrilik / resin custom", "Box beludru", "Grafir + UV print", "Sertifikat mini"],
@@ -211,7 +211,7 @@ const KGP_PRODUCTS = [
   },
   {
     id: "stiker-vinyl", name: "Stiker Vinyl Outdoor + Cutting", category: "bisnis",
-    badge: "", price: 90000, unit: "meter", minOrder: "Min. 1 meter",
+    badge: "", price: 90000, unit: "meter",
     short: "Branding kendaraan, etalase, dan papan nama yang tahan cuaca.",
     full: "Stiker vinyl + laminasi UV untuk branding mobil, motor, kaca ruko, dan papan nama outdoor yang tahan 2–3 tahun.",
     specs: ["Vinyl + laminasi UV", "Cutting presisi", "Tahan panas & hujan", "Pasang tersedia"],
