@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KGP • Semua Link — Kembar Grafika Promoshindo</title>
+<meta name="description" content="Semua link KGP: katalog website, WhatsApp, Shopee, Tokopedia, Instagram, TikTok.">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Plus Jakarta Sans',system-ui;background:radial-gradient(800px 400px at 50% -10%,#c9d8ff,transparent),linear-gradient(180deg,#0a2472,#071a55);min-height:100vh;color:#0b1526;display:flex;justify-content:center;padding:32px 16px}
+.card{width:min(440px,100%);background:#fff;border-radius:28px;padding:32px 24px;text-align:center;box-shadow:0 30px 70px -20px rgba(0,0,0,.5)}
+.avatar{width:92px;height:92px;border-radius:26px;background:linear-gradient(135deg,#e11d2e 0 38%,#0b2fa0 38% 100%);display:grid;place-items:center;color:#fff;font-family:Anton;font-size:34px;margin:0 auto;border:4px solid #eef3ff}
+h1{font-family:Anton;font-size:26px;margin-top:12px}small{display:block;color:#5b6b86;font-weight:700;margin:4px 0 2px}.badge{display:inline-block;background:#eef3ff;color:#0b2fa0;font-weight:800;font-size:12px;border-radius:99px;padding:6px 14px;margin:8px 0 18px}
+a.link{display:flex;align-items:center;gap:12px;background:#f3f6fd;border:1px solid #e5ebf5;border-radius:16px;padding:15px 18px;font-weight:800;margin-bottom:12px;color:#0b1526;text-decoration:none;transition:.2s}
+a.link:hover{transform:translateY(-2px);border-color:#0b2fa0;box-shadow:0 12px 26px -12px rgba(11,47,160,.4)}
+a.link span.ic{width:42px;height:42px;border-radius:12px;background:#0b2fa0;color:#fff;display:grid;place-items:center;font-size:20px;flex-shrink:0}
+a.link.primary{background:linear-gradient(135deg,#0b2fa0,#1740c9);color:#fff;border-color:transparent}
+a.link small{display:block;font-weight:600;opacity:.7;font-size:12px}
+.foot{font-size:12px;color:#5b6b86;margin-top:14px}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="avatar">KGP</div>
+  <h1>KEMBAR GRAFIKA PROMOSHINDO</h1>
+  <small>Percetakan untuk Bisnis, Event & Instansi • Sejak 2014</small>
+  <div class="badge">★ 4.9/5 • 1000+ Klien Puas • Banjarbaru</div>
+
+  <a class="link primary" href="index.html"><span class="ic">▦</span><span>Lihat Katalog Website<small>24 produk + harga + order WA</small></span></a>
+  <a class="link" data-wa="Halo KGP! Saya dari Instagram, mau konsultasi cetak." href="#"><span class="ic" style="background:#22c55e">✆</span><span>Chat WhatsApp — Fast Respon<small>Konsultasi gratis, no komitmen</small></span></a>
+  <a class="link" data-mp="shopee" href="#"><span class="ic" style="background:#ee4d2d">S</span><span>Shopee KGP<small>Checkout & gratis ongkir</small></span></a>
+  <a class="link" data-mp="tokopedia" href="#"><span class="ic" style="background:#03ac0e">T</span><span>Tokopedia KGP<small>Belanja aman & mudah</small></span></a>
+  <a class="link" data-mp="tiktokShop" href="#"><span class="ic" style="background:#000">♪</span><span>TikTok Shop<small>Lihat live & video produk</small></span></a>
+  <a class="link" data-social="instagram" href="https://instagram.com/kgp.printing"><span class="ic" style="background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af)">◎</span><span>Instagram<small>@kgp.printing — portfolio harian</small></span></a>
+  <a class="link" href="index.html#lokasi" id="mapsLink"><span class="ic" style="background:#e11d2e">📍</span><span>Lokasi & Jam Buka<small>Banjarbaru • Senin–Sabtu 08–17</small></span></a>
+
+  <div class="foot">© <span id="year"></span> KGP • Lebih dari sekadar cetak, kami jadi partner Anda.<br><a href="index.html" style="color:#0b2fa0;font-weight:800">← Kembali ke website</a></div>
+</div>
+<script src="js/config.js"></script>
+<script>
+const WA=(window.KGP_CONFIG||{}).waNumber||"6282254887729";
+document.querySelectorAll("[data-wa]").forEach(a=>a.href=`https://wa.me/${WA}?text=${encodeURIComponent(a.dataset.wa)}`);
+const mp=(window.KGP_CONFIG||{}).marketplace||{};const so=(window.KGP_CONFIG||{}).social||{};
+document.querySelectorAll('[data-mp="shopee"]').forEach(a=>{if(mp.shopee)a.href=mp.shopee;else a.style.display="none"});
+document.querySelectorAll('[data-mp="tokopedia"]').forEach(a=>{if(mp.tokopedia)a.href=mp.tokopedia;else a.style.display="none"});
+document.querySelectorAll('[data-mp="tiktokShop"]').forEach(a=>{if(mp.tiktokShop)a.href=mp.tiktokShop;else a.style.display="none"});
+document.querySelectorAll('[data-social="instagram"]').forEach(a=>{if(so.instagram)a.href=so.instagram});
+if((window.KGP_CONFIG||{}).mapsUrl)document.getElementById("mapsLink").href=(window.KGP_CONFIG||{}).mapsUrl;
+document.getElementById("year").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
