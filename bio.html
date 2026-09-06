@@ -45,6 +45,9 @@ document.querySelectorAll("[data-wa]").forEach(a=>a.href=`https://wa.me/${WA}?te
 const mp=(window.KGP_CONFIG||{}).marketplace||{};const so=(window.KGP_CONFIG||{}).social||{};
 document.querySelectorAll('[data-mp="shopee"]').forEach(a=>{if(mp.shopee)a.href=mp.shopee;else a.style.display="none"});
 document.querySelectorAll('[data-mp="shopee2"]').forEach(a=>{if(mp.shopee2)a.href=mp.shopee2;else a.style.display="none"});
+// Satu klik lompat ke aplikasi Shopee (Android intent + fallback browser)
+function shopeeAppUrl(u){if(!/Android/i.test(navigator.userAgent||""))return u;var p=u.replace(/^https?:\/\//,"");return "intent://"+p+"#Intent;scheme=https;package=com.shopee.id;S.browser_fallback_url="+encodeURIComponent(u)+";end"}
+document.addEventListener("click",function(e){var a=e.target.closest('a[data-mp="shopee"],a[data-mp="shopee2"]');if(!a||!a.href)return;var d=shopeeAppUrl(a.href);if(d!==a.href){e.preventDefault();window.location.href=d}});
 document.querySelectorAll('[data-mp="tokopedia"]').forEach(a=>{if(mp.tokopedia)a.href=mp.tokopedia;else a.style.display="none"});
 document.querySelectorAll('[data-mp="tiktokShop"]').forEach(a=>{if(mp.tiktokShop)a.href=mp.tiktokShop;else a.style.display="none"});
 document.querySelectorAll('[data-social="instagram"]').forEach(a=>{if(so.instagram)a.href=so.instagram});
