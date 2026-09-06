@@ -33,6 +33,7 @@ section{padding:84px 0;position:relative}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:10px 0;gap:16px}
 .logo{display:flex;align-items:center;gap:12px;font-weight:800}
 .logo-img{width:340px;height:auto;display:block}
+.logo-icon{height:40px;width:auto;display:block;flex-shrink:0}
 .foot-logo{background:#fff;border-radius:8px;padding:4px 8px;width:340px}
 .logo small{display:block;font-size:10px;letter-spacing:2px;color:var(--navy);font-weight:800}
 .logo b{font-size:18px;line-height:1}
