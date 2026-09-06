@@ -13,22 +13,23 @@ const KGP_CONFIG = {
   waNumber: "6282254887729",
   waGreeting: "Halo KGP! Saya mau konsultasi cetak.",
 
-  email: "info@kgp.co.id",
+  email: "kembarprinting022@gmail.com",
   phoneDisplay: "0822 5488 7729",
   address: "Banjarbaru, Kalimantan Selatan",
   hours: "Senin–Sabtu • 08.00–17.00 WITA",
-  mapsUrl: "https://maps.google.com/?q=Banjarbaru+Kalimantan+Selatan",
+  mapsUrl: "https://maps.app.goo.gl/nsV7g9eAFXfckQAH9",
 
   social: {
-    instagram: "https://instagram.com/kgp.printing",
+    instagram: "https://instagram.com/kembargrafika_promoshindo",
     tiktok: "https://tiktok.com/@kgp.printing",
     facebook: "https://facebook.com/kgp.printing",
   },
 
-  // Toko marketplace — ganti dengan link aslimu. Kosongkan ("") bila belum ada.
+  // Toko marketplace — Tokopedia tidak dipakai (dikosongkan = tombol otomatis sembunyi)
   marketplace: {
-    shopee: "https://shopee.co.id/",
-    tokopedia: "https://tokopedia.com/",
+    shopee: "https://shopee.co.id/kembargrafikapromoshindo",
+    shopee2: "https://shopee.co.id/kembarprintshop",
+    tokopedia: "",
     tiktokShop: "https://tiktok.com/",
     lazada: ""
   },

@@ -29,10 +29,11 @@ a.link small{display:block;font-weight:600;opacity:.7;font-size:12px}
 
   <a class="link primary" href="index.html"><span class="ic">▦</span><span>Lihat Katalog Website<small>24 produk + harga + order WA</small></span></a>
   <a class="link" data-wa="Halo KGP! Saya dari Instagram, mau konsultasi cetak." href="#"><span class="ic" style="background:#22c55e">✆</span><span>Chat WhatsApp — Fast Respon<small>Konsultasi gratis, no komitmen</small></span></a>
-  <a class="link" data-mp="shopee" href="#"><span class="ic" style="background:#ee4d2d">S</span><span>Shopee KGP<small>Checkout & gratis ongkir</small></span></a>
+  <a class="link" data-mp="shopee" href="#"><span class="ic" style="background:#ee4d2d">S</span><span>Shopee KGP<small>kembargrafikapromoshindo</small></span></a>
+  <a class="link" data-mp="shopee2" href="#"><span class="ic" style="background:#ee4d2d">S</span><span>Shopee Printshop<small>kembarprintshop</small></span></a>
   <a class="link" data-mp="tokopedia" href="#"><span class="ic" style="background:#03ac0e">T</span><span>Tokopedia KGP<small>Belanja aman & mudah</small></span></a>
   <a class="link" data-mp="tiktokShop" href="#"><span class="ic" style="background:#000">♪</span><span>TikTok Shop<small>Lihat live & video produk</small></span></a>
-  <a class="link" data-social="instagram" href="https://instagram.com/kgp.printing"><span class="ic" style="background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af)">◎</span><span>Instagram<small>@kgp.printing — portfolio harian</small></span></a>
+  <a class="link" data-social="instagram" href="https://instagram.com/kembargrafika_promoshindo"><span class="ic" style="background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af)">◎</span><span>Instagram<small>@kembargrafika_promoshindo — portfolio harian</small></span></a>
   <a class="link" href="index.html#lokasi" id="mapsLink"><span class="ic" style="background:#f5222d">📍</span><span>Lokasi & Jam Buka<small>Banjarbaru • Senin–Sabtu 08–17</small></span></a>
 
   <div class="foot">© <span id="year"></span> KGP • Lebih dari sekadar cetak, kami jadi partner Anda.<br><a href="index.html" style="color:#123fd1;font-weight:800">← Kembali ke website</a></div>
@@ -43,6 +44,7 @@ const WA=(window.KGP_CONFIG||{}).waNumber||"6282254887729";
 document.querySelectorAll("[data-wa]").forEach(a=>a.href=`https://wa.me/${WA}?text=${encodeURIComponent(a.dataset.wa)}`);
 const mp=(window.KGP_CONFIG||{}).marketplace||{};const so=(window.KGP_CONFIG||{}).social||{};
 document.querySelectorAll('[data-mp="shopee"]').forEach(a=>{if(mp.shopee)a.href=mp.shopee;else a.style.display="none"});
+document.querySelectorAll('[data-mp="shopee2"]').forEach(a=>{if(mp.shopee2)a.href=mp.shopee2;else a.style.display="none"});
 document.querySelectorAll('[data-mp="tokopedia"]').forEach(a=>{if(mp.tokopedia)a.href=mp.tokopedia;else a.style.display="none"});
 document.querySelectorAll('[data-mp="tiktokShop"]').forEach(a=>{if(mp.tiktokShop)a.href=mp.tiktokShop;else a.style.display="none"});
 document.querySelectorAll('[data-social="instagram"]').forEach(a=>{if(so.instagram)a.href=so.instagram});

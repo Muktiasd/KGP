@@ -20,6 +20,7 @@
     }
     if (CFG.marketplace) {
       setHref('[data-mp="shopee"]', CFG.marketplace.shopee);
+      setHref('[data-mp="shopee2"]', CFG.marketplace.shopee2);
       setHref('[data-mp="tokopedia"]', CFG.marketplace.tokopedia);
       setHref('[data-mp="tiktokShop"]', CFG.marketplace.tiktokShop);
     }
