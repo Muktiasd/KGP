@@ -109,18 +109,19 @@
   // --- Modal ---
   let currentProduct = null;
   function openProduct(id) {
-    const p = PRODUCTS.find((x) => x.id === id);
+    const p = (PRODUCTS || []).find((x) => x.id === id);
     if (!p) return;
     currentProduct = p;
+    const set = (elId, val, isHTML) => { const el = document.getElementById(elId); if (!el) return; if (isHTML) el.innerHTML = val; else el.textContent = val; };
     const img = document.getElementById("mImg");
-    img.src = p.image; img.alt = p.name;
-    img.onerror = () => { img.onerror = null; img.src = `https://picsum.photos/seed/${p.id}/900/700`; };
-    document.getElementById("mCat").textContent = (CAT_LABEL[p.category] || p.category).toUpperCase() + (p.sold ? ` • ★ ${p.rating} • ${p.sold} TERJUAL` : "");
-    document.getElementById("mName").textContent = p.name;
-    document.getElementById("mDesc").textContent = p.full || p.short || "";
-    document.getElementById("mSpecs").innerHTML = (p.specs || []).map((s) => `<span class="spec">✓ ${s}</span>`).join("");
-    updateModalWa();
-    document.getElementById("modalBack").classList.add("show");
+    if (img) { img.src = p.image; img.alt = p.name; img.onerror = () => { img.onerror = null; img.src = `https://picsum.photos/seed/${p.id}/900/700`; }; }
+    set("mCat", ((CAT_LABEL[p.category] || p.category) || "").toUpperCase() + (p.sold ? ` • ★ ${p.rating} • ${p.sold} TERJUAL` : ""));
+    set("mName", p.name);
+    set("mDesc", p.full || p.short || "");
+    set("mSpecs", (p.specs || []).map((s) => `<span class="spec">✓ ${s}</span>`).join(""), true);
+    try { updateModalWa(); } catch (e) {}
+    const back = document.getElementById("modalBack");
+    if (back) back.classList.add("show");
     document.body.style.overflow = "hidden";
   }
   function updateModalWa() {
@@ -134,10 +135,6 @@
   // --- Init ---
   document.addEventListener("DOMContentLoaded", async () => {
     applyConfig();
-    PRODUCTS = await getProducts();
-    renderCatalog();
-    renderPortfolio();
-    renderStats();
 
     // Filter katalog
     document.getElementById("chips").addEventListener("click", (e) => {
@@ -193,5 +190,11 @@
     const toTop = document.getElementById("toTop");
     window.addEventListener("scroll", () => { toTop.style.display = window.scrollY > 600 ? "grid" : "none"; }, { passive: true });
     toTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+
+    // Data produk (paling akhir: semua tombol & filter tetap aktif walau fetch lambat/gagal)
+    PRODUCTS = await getProducts();
+    renderCatalog();
+    renderPortfolio();
+    renderStats();
   });
 })();
