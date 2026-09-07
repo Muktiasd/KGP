@@ -112,24 +112,6 @@
     }).join("");
   }
 
-  // --- Shopee: satu klik langsung lompat ke aplikasi (Android) ---
-  // Android pakai intent:// + package com.shopee.id (fallback ke browser bila app belum install).
-  // iOS/desktop pakai https biasa (universal link — dibuka app bila tersedia).
-  function shopeeAppUrl(httpsUrl) {
-    const ua = navigator.userAgent || "";
-    if (!/Android/i.test(ua)) return httpsUrl;
-    const path = httpsUrl.replace(/^https?:\/\//, "");
-    return "intent://" + path + "#Intent;scheme=https;package=com.shopee.id;S.browser_fallback_url=" + encodeURIComponent(httpsUrl) + ";end";
-  }
-  function enableShopeeDeepLink() {
-    document.addEventListener("click", (e) => {
-      const a = e.target.closest('a[data-mp="shopee"],a[data-mp="shopee2"]');
-      if (!a || !a.href) return;
-      const deep = shopeeAppUrl(a.href);
-      if (deep !== a.href) { e.preventDefault(); window.location.href = deep; }
-    });
-  }
-
   // --- Modal ---
   let currentProduct = null;
   function openProduct(id) {
@@ -160,7 +142,6 @@
   // --- Init ---
   document.addEventListener("DOMContentLoaded", async () => {
     applyConfig();
-    enableShopeeDeepLink();
     PRODUCTS = await getProducts();
     renderCatalog();
     renderPortfolio();
