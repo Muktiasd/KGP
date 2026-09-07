@@ -50,7 +50,6 @@
 
   function cardHTML(p, i) {
     const specs = (p.specs || []).slice(0, 3).map((s) => `<span class="spec">${s}</span>`).join("");
-    const msg = `Halo KGP! Saya mau tanya *${p.name}* (${CAT_LABEL[p.category] || p.category}). Apakah ready & berapa estimasi harga untuk kebutuhan saya?`;
     return `
     <article class="card reveal visible" data-id="${p.id}">
       <div class="card-media">
@@ -64,7 +63,6 @@
         <p class="card-desc">${p.short || ""}</p>
         <div class="card-specs">${specs}</div>
         <div class="card-actions">
-          <a class="btn-card-wa" href="${waLink(msg)}" target="_blank" rel="noopener">✆ Tanya Harga</a>
           <button class="btn-card-detail" data-open-product="${p.id}">Detail →</button>
         </div>
       </div>
@@ -77,7 +75,7 @@
       (!query || (p.name + " " + (p.short || "") + " " + (p.full || "")).toLowerCase().includes(query)));
     grid.innerHTML = list.length ? list.map(cardHTML).join("") :
       `<div style="grid-column:1/-1;text-align:center;padding:40px;background:#fff;border:1px dashed var(--line);border-radius:18px">Produk tidak ditemukan. Coba kata kunci lain atau <a href="${waLink("Halo KGP! Saya cari produk yang tidak ada di katalog.")}" target="_blank" style="color:var(--navy);font-weight:800">tanya langsung via WA →</a></div>`;
-    document.getElementById("resultCount").textContent = `Menampilkan ${list.length} dari ${PRODUCTS.length} produk • klik Tanya Harga untuk order via WhatsApp`;
+    document.getElementById("resultCount").textContent = `Menampilkan ${list.length} dari ${PRODUCTS.length} produk • klik Detail lalu order via WhatsApp`;
   }
 
   // --- Portfolio: ambil 9 produk jadi galeri + 1 custom box ---

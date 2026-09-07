@@ -1,6 +1,6 @@
 /* Data produk KGP — 24 produk. Tambah/edit bebas, website otomatis update.
    Kategori: bisnis | event | instansi | corporate | packaging | merchandise | administrasi
-   Harga tidak ditampilkan — order via tombol Tanya Harga (WA). */
+   Harga tidak ditampilkan — order via tombol Detail → WhatsApp. */
 const KGP_PRODUCTS = [
   {
     id: "paper-bag-box-corporate", name: "Paper Bag + Box Corporate Custom", category: "packaging",
