@@ -17,7 +17,7 @@ const KGP_CONFIG = {
   phoneDisplay: "0822 5488 7729",
   address: "Banjarbaru, Kalimantan Selatan",
   hours: "Senin–Sabtu • 08.00–17.00 WITA",
-  mapsUrl: "https://maps.app.goo.gl/nsV7g9eAFXfckQAH9",
+  mapsUrl: "https://maps.app.goo.gl/7oLLcDQhhKLDeuBe9",
 
   social: {
     instagram: "https://instagram.com/kembargrafika_promoshindo",
