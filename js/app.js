@@ -128,7 +128,7 @@
     if (!currentProduct) return;
     const qty = document.getElementById("qtyInput").value || "-";
     const p = currentProduct;
-    document.getElementById("mWa").href = waLink(`Halo KGP! Saya mau order *${p.name}*.\n• Estimasi jumlah: ${qty}\nMohon info harga + ongkir ke [tulis kota]. Terima kasih!`);
+    document.getElementById("mWa").href = waLink(`Halo KGP! Saya mau order *${p.name}*.\n• Estimasi jumlah: ${qty}\nMohon info harganya. Terima kasih!`);
   }
   function closeModal() { document.getElementById("modalBack").classList.remove("show"); document.body.style.overflow = ""; }
 
