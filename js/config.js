@@ -21,7 +21,7 @@ const KGP_CONFIG = {
 
   social: {
     instagram: "https://instagram.com/kembargrafika_promoshindo",
-    tiktok: "https://tiktok.com/@kgp.printing",
+    tiktok: "https://tiktok.com/@kembargrafikapromoshindo",
     facebook: "https://facebook.com/kgp.printing",
   },
 
