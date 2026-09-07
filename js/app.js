@@ -49,10 +49,8 @@
   let query = "";
 
   function cardHTML(p, i) {
-    const price = p.price == null ? "Tanya Harga" : rupiah(p.price);
-    const unit = p.price == null ? "" : `<small> / ${p.unit || "pcs"}</small>`;
     const specs = (p.specs || []).slice(0, 3).map((s) => `<span class="spec">${s}</span>`).join("");
-    const msg = `Halo KGP! Saya mau tanya *${p.name}* (${CAT_LABEL[p.category] || p.category}). ${p.price != null ? "Harga " + rupiah(p.price) + " / " + (p.unit || "pcs") + ". " : ""}Apakah ready & berapa estimasi untuk kebutuhan saya?`;
+    const msg = `Halo KGP! Saya mau tanya *${p.name}* (${CAT_LABEL[p.category] || p.category}). Apakah ready & berapa estimasi harga untuk kebutuhan saya?`;
     return `
     <article class="card reveal visible" data-id="${p.id}">
       <div class="card-media">
@@ -65,8 +63,6 @@
         <h3>${p.name}</h3>
         <p class="card-desc">${p.short || ""}</p>
         <div class="card-specs">${specs}</div>
-        <div class="card-price"><span class="price">${price}${unit}</span></div>
-        <small style="color:var(--muted);font-size:11px;font-weight:700">${p.minOrder || ""}</small>
         <div class="card-actions">
           <a class="btn-card-wa" href="${waLink(msg)}" target="_blank" rel="noopener">✆ Tanya Harga</a>
           <button class="btn-card-detail" data-open-product="${p.id}">Detail →</button>
@@ -125,8 +121,6 @@
     document.getElementById("mName").textContent = p.name;
     document.getElementById("mDesc").textContent = p.full || p.short || "";
     document.getElementById("mSpecs").innerHTML = (p.specs || []).map((s) => `<span class="spec">✓ ${s}</span>`).join("");
-    document.getElementById("mPrice").textContent = p.price == null ? "Tanya Harga" : rupiah(p.price) + " / " + (p.unit || "pcs");
-    document.getElementById("mMin").textContent = p.minOrder || "";
     updateModalWa();
     document.getElementById("modalBack").classList.add("show");
     document.body.style.overflow = "hidden";
@@ -135,7 +129,7 @@
     if (!currentProduct) return;
     const qty = document.getElementById("qtyInput").value || "-";
     const p = currentProduct;
-    document.getElementById("mWa").href = waLink(`Halo KGP! Saya mau order *${p.name}*.\n• Estimasi jumlah: ${qty} ${p.unit || "pcs"}\n• ${p.price != null ? "Referensi harga web: " + rupiah(p.price) + " / " + (p.unit || "pcs") + "\n" : ""}Mohon info harga final + ongkir ke [tulis kota]. Terima kasih!`);
+    document.getElementById("mWa").href = waLink(`Halo KGP! Saya mau order *${p.name}*.\n• Estimasi jumlah: ${qty}\nMohon info harga + ongkir ke [tulis kota]. Terima kasih!`);
   }
   function closeModal() { document.getElementById("modalBack").classList.remove("show"); document.body.style.overflow = ""; }
 

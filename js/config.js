@@ -30,7 +30,7 @@ const KGP_CONFIG = {
     shopee: "https://shopee.co.id/kembargrafikapromoshindo",
     shopee2: "https://shopee.co.id/kembarprintshop",
     tokopedia: "",
-    tiktokShop: "https://tiktok.com/",
+    tiktokShop: "",
     lazada: ""
   },
 
