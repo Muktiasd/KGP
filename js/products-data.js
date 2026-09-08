@@ -3,11 +3,11 @@
    Harga tidak ditampilkan — order via tombol Detail → WhatsApp. */
 const KGP_PRODUCTS = [
   {
-    id: "paper-bag-box-corporate", name: "Paper Bag + Box Corporate Custom", category: "packaging",
+    id: "paper-bag-box-corporate", name: "Paper Bag + Box Custom", category: "packaging",
     badge: "Produk Unggulan",
     short: "Produksi custom untuk branding & corporate — bahan premium, cetak tajam.",
-    full: "Paper bag + box corporate full custom untuk kebutuhan branding perusahaan, souvenir, dan hampers. Pilih bahan art carton / ivory, laminasi doff / glossy, tali premium, dan desain sesuai brand book kamu.",
-    specs: ["Bahan art carton 230–310 gsm", "Laminasi doff / glossy", "Tali kur / pita satin", "Sablon & full colour"],
+    full: "Paper bag + box custom untuk kebutuhan branding perusahaan, souvenir, dan hampers. Pilih bahan ArtPaper / ivory, laminasi doff / glossy, tali premium, dan desain sesuai brand book kamu.",
+    specs: ["ArtPaper 260-280 gsm", "Laminasi doff / glossy", "Tali kur / pita satin", "Sablon & full colour"],
     image: "assets/paperbag.png",
     rating: 4.9, sold: "2rb+"
   },
