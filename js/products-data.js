@@ -35,7 +35,7 @@ const KGP_PRODUCTS = [
     short: "Untuk administrasi bisnis yang lebih rapi dan profesional.",
     full: "Nota NCR 2–3 rangkap dengan nomorator, porporasi, dan cover. Cocok untuk toko, klinik, bengkel, travel, dan UMKM.",
     specs: ["NCR 2/3 rangkap", "Nomorator & porporasi", "Ukuran 1/2 folio / custom", "Cover + jilid blok"],
-    image: "https://images.unsplash.com/photo-1568452457846-1a7c2da2749c?auto=format&fit=crop&w=800&q=80",
+    image: "assets/nota.png",
     rating: 4.9, sold: "3rb+"
   },
   {

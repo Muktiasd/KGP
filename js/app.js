@@ -88,7 +88,7 @@
       { t: "Sticker Label", s: "Lembaran / Roll", c: "bisnis", img: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&w=700&q=80" },
       { t: "Paper Bag Custom", s: "Desain & Cetak", c: "bisnis", img: "assets/paperbag.png" },
       { t: "Banner", s: "Indoor & Outdoor", c: "event", img: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=700&q=80" },
-      { t: "Nota / Kwitansi", s: "Administrasi Bisnis", c: "instansi", img: "https://images.unsplash.com/photo-1568452457846-1a7c2da2749c?auto=format&fit=crop&w=700&q=80" },
+      { t: "Nota / Kwitansi", s: "Administrasi Bisnis", c: "instansi", img: "assets/nota.png" },
       { t: "Plakat Akrilik", s: "Custom Design", c: "corporate", img: "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?auto=format&fit=crop&w=700&q=80" },
       { t: "Ganci Akrilik", s: "Merchandise Custom", c: "event", img: "https://images.unsplash.com/photo-1611085583191-a3b181a88401?auto=format&fit=crop&w=700&q=80" },
       { t: "Standing QRIS", s: "Pembayaran Digital", c: "bisnis", img: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=700&q=80" },
