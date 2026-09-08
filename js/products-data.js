@@ -23,10 +23,10 @@ const KGP_PRODUCTS = [
   {
     id: "kalender-meja", name: "Kalender Meja Hard Cover Spiral", category: "corporate",
     badge: "Promo",
-    short: "Kalender meja custom yang elegan & kokoh — cocok untuk promosi bisnis.",
+    short: "Kalender meja custom yang elegan & kokoh — display meja multi fungsi.",
     full: "Kalender meja dudukan hard cover + spiral kawat dengan 12 halaman full colour. Media promosi yang dipakai klien sepanjang tahun di atas meja kerja.",
     specs: ["Dudukan hard cover", "Spiral kawat premium", "12 bulan + cover custom", "Ukuran A5 / custom"],
-    image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80",
+    image: "assets/kalender-hc.png",
     rating: 4.8, sold: "1,5rb+"
   },
   {
