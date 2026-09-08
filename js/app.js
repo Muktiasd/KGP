@@ -83,7 +83,7 @@
     const grid = document.getElementById("portGrid");
     const map = [
       { t: "Plakat Custom + Box", s: "Corporate & Appreciation", c: "corporate", img: "https://images.unsplash.com/photo-1578269174936-2709b6aeb913?auto=format&fit=crop&w=900&q=80", big: true },
-      { t: "Album Kenangan", s: "Hard Cover | Custom", c: "instansi", img: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80" },
+      { t: "Buku Hard / Soft Cover", s: "Custom | Premium", c: "instansi", img: "assets/buku-hard-cover.png" },
       { t: "Kalender Meja", s: "Hard Cover Spiral", c: "corporate", img: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=700&q=80" },
       { t: "Sticker Label", s: "Lembaran / Roll", c: "bisnis", img: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&w=700&q=80" },
       { t: "Paper Bag Custom", s: "Desain & Cetak", c: "bisnis", img: "assets/paperbag.png" },

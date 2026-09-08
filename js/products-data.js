@@ -12,12 +12,12 @@ const KGP_PRODUCTS = [
     rating: 4.9, sold: "2rb+"
   },
   {
-    id: "album-kenangan", name: "Album Kenangan Hard Cover", category: "instansi",
+    id: "album-kenangan", name: "Buku Hard / Soft Cover", category: "instansi",
     badge: "Best Seller",
-    short: "Mengabadikan momen berharga dalam kualitas yang tahan lama.",
-    full: "Album kenangan sekolah / instansi dengan hard cover premium, laminasi, dan cetak isi full colour. Termasuk layanan layout dan proofing sebelum cetak massal.",
+    short: "Cetak buku hard & soft cover premium — album kenangan, buku instansi, hingga company profile.",
+    full: "Cetak buku hard cover & soft cover full custom untuk album kenangan sekolah, buku statistik instansi, memory book, hingga company profile. Termasuk layanan layout dan proofing sebelum cetak massal.",
     specs: ["Hard cover + laminasi", "Isi art paper full colour", "Custom nama & logo sekolah", "Jahit benang / binding"],
-    image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80",
+    image: "assets/buku-hard-cover.png",
     rating: 4.9, sold: "800+"
   },
   {
