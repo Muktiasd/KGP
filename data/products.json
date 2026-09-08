@@ -68,23 +68,6 @@
     "sold": "3rb+"
   },
   {
-    "id": "paper-bag-wajah",
-    "name": "Paper Bag Custom Wajah / Karakter",
-    "category": "packaging",
-    "badge": "Unik",
-    "short": "Tampilkan wajah, karakter, atau brand di paper bag yang personal & berkesan.",
-    "full": "Paper bag custom ilustrasi wajah / karakter untuk wedding souvenir, birthday, coffee shop, dan beauty brand. Desain dibantu tim kami sampai Approved.",
-    "specs": [
-      "Ilustrasi custom",
-      "Bahan craft / art carton",
-      "Full colour",
-      "Tali premium"
-    ],
-    "image": "assets/paperbag.png",
-    "rating": 4.8,
-    "sold": "900+"
-  },
-  {
     "id": "sticker-label",
     "name": "Sticker Label / Lembaran",
     "category": "bisnis",
