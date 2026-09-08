@@ -86,7 +86,7 @@
       { t: "Album Kenangan", s: "Hard Cover | Custom", c: "instansi", img: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=700&q=80" },
       { t: "Kalender Meja", s: "Hard Cover Spiral", c: "corporate", img: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=700&q=80" },
       { t: "Sticker Label", s: "Lembaran / Roll", c: "bisnis", img: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&w=700&q=80" },
-      { t: "Paper Bag Custom", s: "Desain & Cetak", c: "bisnis", img: "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=700&q=80" },
+      { t: "Paper Bag Custom", s: "Desain & Cetak", c: "bisnis", img: "assets/paperbag.png" },
       { t: "Banner", s: "Indoor & Outdoor", c: "event", img: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=700&q=80" },
       { t: "Nota / Kwitansi", s: "Administrasi Bisnis", c: "instansi", img: "https://images.unsplash.com/photo-1568452457846-1a7c2da2749c?auto=format&fit=crop&w=700&q=80" },
       { t: "Plakat Akrilik", s: "Custom Design", c: "corporate", img: "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?auto=format&fit=crop&w=700&q=80" },

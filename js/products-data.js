@@ -8,7 +8,7 @@ const KGP_PRODUCTS = [
     short: "Produksi custom untuk branding & corporate — bahan premium, cetak tajam.",
     full: "Paper bag + box corporate full custom untuk kebutuhan branding perusahaan, souvenir, dan hampers. Pilih bahan art carton / ivory, laminasi doff / glossy, tali premium, dan desain sesuai brand book kamu.",
     specs: ["Bahan art carton 230–310 gsm", "Laminasi doff / glossy", "Tali kur / pita satin", "Sablon & full colour"],
-    image: "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=800&q=80",
+    image: "assets/paperbag.png",
     rating: 4.9, sold: "2rb+"
   },
   {
@@ -44,7 +44,7 @@ const KGP_PRODUCTS = [
     short: "Tampilkan wajah, karakter, atau brand di paper bag yang personal & berkesan.",
     full: "Paper bag custom ilustrasi wajah / karakter untuk wedding souvenir, birthday, coffee shop, dan beauty brand. Desain dibantu tim kami sampai Approved.",
     specs: ["Ilustrasi custom", "Bahan craft / art carton", "Full colour", "Tali premium"],
-    image: "https://images.unsplash.com/photo-1597484662317-9bd7bdda2907?auto=format&fit=crop&w=800&q=80",
+    image: "assets/paperbag.png",
     rating: 4.8, sold: "900+"
   },
   {
