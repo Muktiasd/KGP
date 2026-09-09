@@ -105,9 +105,9 @@ const KGP_PRODUCTS = [
     id: "backdrop", name: "Backdrop Event / Photobooth", category: "event",
     badge: "",
     short: "Backdrop panggung & photobooth untuk wedding, seminar, dan gathering.",
-    full: "Cetak backdrop MMT / albatros lebar hingga 5 meter tanpa sambungan terlihat, plus sewa rangka tersedia untuk area Banjarbaru–Banjarmasin.",
-    specs: ["Lebar hingga 5 m", "MMT / albatros", "Finishing lipat + mata ayam", "Sewa rangka tersedia"],
-    image: "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80",
+    full: "Cetak backdrop, photobooth, dan wallpaper dinding lebar hingga 5 meter tanpa sambungan terlihat, plus sewa rangka tersedia untuk area Banjarbaru–Banjarmasin.",
+    specs: ["Backdrop", "Photobooth", "Wallpaper Dinding"],
+    image: "assets/backdrop.jpg",
     rating: 4.9, sold: "400+"
   },
   {
