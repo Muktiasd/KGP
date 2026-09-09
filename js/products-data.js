@@ -70,8 +70,8 @@ const KGP_PRODUCTS = [
     badge: "Eksklusif",
     short: "Penghargaan & kenang-kenangan yang terlihat lebih eksklusif.",
     full: "Plakat akrilik UV print + box eksklusif untuk penghargaan karyawan, lomba, wisuda, dan kerjasama corporate. Grafir laser tersedia.",
-    specs: ["Akrilik 5–10 mm", "UV print / grafir laser", "Box eksklusif", "Desain gratis"],
-    image: "https://images.unsplash.com/photo-1578269174936-2709b6aeb913?auto=format&fit=crop&w=800&q=80",
+    specs: ["Akrilik 3–10 mm", "UV print / grafir laser", "Box eksklusif", "Desain gratis"],
+    image: "assets/plakat.png",
     rating: 4.9, sold: "700+"
   },
   {

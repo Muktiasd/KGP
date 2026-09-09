@@ -89,7 +89,7 @@
       { t: "Paper Bag Custom", s: "Desain & Cetak", c: "bisnis", img: "assets/paperbag.png" },
       { t: "Cetak Outdoor", s: "Banner / Spanduk / Baliho", c: "bisnis", img: "assets/cetak-outdoor.png" },
       { t: "Nota / Kwitansi", s: "Administrasi Bisnis", c: "instansi", img: "assets/nota.png" },
-      { t: "Plakat Akrilik", s: "Custom Design", c: "corporate", img: "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?auto=format&fit=crop&w=700&q=80" },
+      { t: "Plakat Akrilik", s: "Custom Design", c: "corporate", img: "assets/plakat.png" },
       { t: "Ganci Akrilik", s: "Merchandise Custom", c: "event", img: "https://images.unsplash.com/photo-1611085583191-a3b181a88401?auto=format&fit=crop&w=700&q=80" },
       { t: "Standing QRIS", s: "Pembayaran Digital", c: "bisnis", img: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=700&q=80" },
     ];
