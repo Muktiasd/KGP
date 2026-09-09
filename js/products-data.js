@@ -96,9 +96,9 @@ const KGP_PRODUCTS = [
     id: "x-banner", name: "X-Banner + Roll Up Banner", category: "event",
     badge: "",
     short: "Media promosi event yang praktis dibawa & dipasang di mana saja.",
-    full: "X-banner 60×160 dan roll up 85×200 + tas jinjing. Cocok untuk pameran, seminar, store branding, dan pendaftaran.",
-    specs: ["Bahan albatros / flexi", "Rangka aluminium", "Tas jinjing", "Cetak 1 hari jadi*"],
-    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80",
+    full: "X-banner 60×160 dan roll up 85×200. Cocok untuk pameran, seminar, store branding, dan pendaftaran.",
+    specs: ["Bahan albatros / flexi", "Rangka aluminium", "Cetak 1 hari jadi*"],
+    image: "assets/xbanner.png",
     rating: 4.8, sold: "600+"
   },
   {
