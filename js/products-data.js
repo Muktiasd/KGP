@@ -75,12 +75,12 @@ const KGP_PRODUCTS = [
     rating: 4.9, sold: "700+"
   },
   {
-    id: "ganci-akrilik", name: "Ganci Akrilik Custom", category: "merchandise",
+    id: "ganci-akrilik", name: "Merchandise Custom", category: "merchandise",
     badge: "",
-    short: "Merchandise custom untuk brand, komunitas, maupun event spesial.",
-    full: "Gantungan kunci akrilik 2 sisi dengan cutting laser presisi. Cocok untuk souvenir event, merchandise komunitas, dan bundling produk.",
-    specs: ["Akrilik 3–5 mm", "Cetak 2 sisi", "Cutting laser presisi", "Ring stainless"],
-    image: "https://images.unsplash.com/photo-1611085583191-a3b181a88401?auto=format&fit=crop&w=800&q=80",
+    short: "Berbagai souvenir custom untuk event, bisnis, dan instansi.",
+    full: "Berbagai merchandise custom — keychain, mug, nametag resin, bross akrilik, pin, medali akrilik, kipas kerang, tumblr, dan lainnya — untuk event, bisnis, dan instansi.",
+    specs: ["Keychain", "Mug", "Nametag resin", "Bross akrilik", "Pin", "Medali akrilik", "Kipas kerang", "Tumblr", "dll."],
+    image: "assets/merchandise.png",
     rating: 4.8, sold: "4rb+"
   },
   {

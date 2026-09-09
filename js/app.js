@@ -90,7 +90,7 @@
       { t: "Cetak Outdoor", s: "Banner / Spanduk / Baliho", c: "bisnis", img: "assets/cetak-outdoor.png" },
       { t: "Nota / Kwitansi", s: "Administrasi Bisnis", c: "instansi", img: "assets/nota.png" },
       { t: "Plakat Akrilik", s: "Custom Design", c: "corporate", img: "assets/plakat.png" },
-      { t: "Ganci Akrilik", s: "Merchandise Custom", c: "event", img: "https://images.unsplash.com/photo-1611085583191-a3b181a88401?auto=format&fit=crop&w=700&q=80" },
+      { t: "Merchandise Custom", s: "Souvenir Event & Bisnis", c: "event", img: "assets/merchandise.png" },
       { t: "Standing QRIS", s: "Pembayaran Digital", c: "bisnis", img: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=700&q=80" },
     ];
     const list = map.filter((m) => filter === "semua" || m.c === filter);
