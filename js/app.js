@@ -91,7 +91,7 @@
       { t: "Nota / Kwitansi", s: "Administrasi Bisnis", c: "instansi", img: "assets/nota.png" },
       { t: "Plakat Akrilik", s: "Custom Design", c: "corporate", img: "assets/plakat.png" },
       { t: "Merchandise Custom", s: "Souvenir Event & Bisnis", c: "event", img: "assets/merchandise.png" },
-      { t: "Standing QRIS", s: "Pembayaran Digital", c: "bisnis", img: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=700&q=80" },
+      { t: "Standing QRIS", s: "Pembayaran Digital", c: "bisnis", img: "assets/qris.png" },
     ];
     const list = map.filter((m) => filter === "semua" || m.c === filter);
     grid.innerHTML = list.map((m) => `<div class="port ${m.big ? "big" : ""}"><img loading="lazy" src="${m.img}" alt="${m.t}" onerror="this.onerror=null;this.src='https://picsum.photos/seed/${encodeURIComponent(m.t)}/800/600'"><span>${m.t}<br><small style="color:var(--muted)">${m.s}</small></span></div>`).join("");

@@ -89,7 +89,7 @@ const KGP_PRODUCTS = [
     short: "Solusi pembayaran digital yang praktis + memperkuat branding di meja kasir.",
     full: "Standing QRIS akrilik custom logo usaha. Bikin meja kasir terlihat profesional dan mempercepat transaksi non-tunai.",
     specs: ["Akrilik premium", "QR anti luntur", "Custom logo & warna", "Base kokoh"],
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80",
+    image: "assets/qris.png",
     rating: 4.9, sold: "1,2rb+"
   },
   {
