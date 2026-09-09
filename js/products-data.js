@@ -129,15 +129,6 @@ const KGP_PRODUCTS = [
     rating: 4.7, sold: "20rb+"
   },
   {
-    id: "spanduk", name: "Spanduk / MMT Outdoor", category: "instansi",
-    badge: "",
-    short: "Untuk kebutuhan kantor, sekolah, komunitas & sosialisasi program.",
-    full: "Spanduk sosialisasi program pemerintah, PPDB sekolah, dan kampanye komunitas. Cetak besar cepat dengan warna konsisten.",
-    specs: ["Flexi Korea / China", "Ukuran bebas", "Desain dibantu", "Lipat + mata ayam"],
-    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80",
-    rating: 4.8, sold: "6rb+"
-  },
-  {
     id: "brosur", name: "Brosur & Leaflet", category: "bisnis",
     badge: "",
     short: "Media promosi cetak yang tetap efektif untuk traffic offline.",
@@ -145,15 +136,6 @@ const KGP_PRODUCTS = [
     specs: ["A5 / A4 / lipat 3", "Art paper 150 gsm", "Full colour 2 sisi", "Potong rapi"],
     image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=800&q=80",
     rating: 4.8, sold: "30rb+"
-  },
-  {
-    id: "buku-majalah", name: "Buku & Majalah / Buku Kenangan", category: "instansi",
-    badge: "",
-    short: "Cetak buku profil, majalah sekolah, dan company profile.",
-    full: "Cetak buku soft/hard cover, jilid perfect binding / jahit, untuk sekolah, kampus, dan instansi. Proof digital sebelum naik cetak.",
-    specs: ["Soft / hard cover", "HVS / art paper", "Perfect / jahit benang", "ISBN-ready layout"],
-    image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
-    rating: 4.9, sold: "300+"
   },
   {
     id: "sertifikat", name: "Sertifikat & Piagam", category: "instansi",
@@ -183,15 +165,6 @@ const KGP_PRODUCTS = [
     rating: 4.9, sold: "1rb+"
   },
   {
-    id: "box-kemasan", name: "Dus / Box Kemasan Produk", category: "packaging",
-    badge: "Best Seller",
-    short: "Box makanan, skincare, dan retail dengan konstruksi kokoh.",
-    full: "Custom box ivory / duplex / corrugated dengan pisau pond custom. Termasuk dieline, proofing, dan finishing laminasi + spot UV.",
-    specs: ["Ivory / duplex / corrugated", "Pisau pond custom", "Laminasi + window tersedia", "Food grade"],
-    image: "https://images.unsplash.com/photo-1607166452427-7e4477079cb9?auto=format&fit=crop&w=800&q=80",
-    rating: 4.9, sold: "1rb+"
-  },
-  {
     id: "kalender-dinding", name: "Kalender Dinding & Poster", category: "corporate",
     badge: "",
     short: "Kalender dinding branding yang dipakai setahun penuh.",
@@ -199,23 +172,5 @@ const KGP_PRODUCTS = [
     specs: ["A3+ / A2", "6 / 12 lembar", "Spiral + gantungan", "Full custom desain"],
     image: "https://images.unsplash.com/photo-1495364141860-b0d03eccd065?auto=format&fit=crop&w=800&q=80",
     rating: 4.7, sold: "900+"
-  },
-  {
-    id: "plakat-kayu-box", name: "Plakat Kayu + Box Beludru", category: "corporate",
-    badge: "Premium",
-    short: "Penghargaan premium dengan box beludru eksklusif.",
-    full: "Plakat akrilik / resin custom + box beludru merah untuk apresiasi direksi, perpisahan, dan penghargaan corporate — seperti project KFC & BNI kami.",
-    specs: ["Akrilik / resin custom", "Box beludru", "Grafir + UV print", "Sertifikat mini"],
-    image: "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?auto=format&fit=crop&w=800&q=80",
-    rating: 5.0, sold: "200+"
-  },
-  {
-    id: "stiker-vinyl", name: "Stiker Vinyl Outdoor + Cutting", category: "bisnis",
-    badge: "",
-    short: "Branding kendaraan, etalase, dan papan nama yang tahan cuaca.",
-    full: "Stiker vinyl + laminasi UV untuk branding mobil, motor, kaca ruko, dan papan nama outdoor yang tahan 2–3 tahun.",
-    specs: ["Vinyl + laminasi UV", "Cutting presisi", "Tahan panas & hujan", "Pasang tersedia"],
-    image: "https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=800&q=80",
-    rating: 4.8, sold: "700+"
   }
 ];
