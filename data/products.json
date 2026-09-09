@@ -208,23 +208,6 @@
     "sold": "400+"
   },
   {
-    "id": "nomor-dada",
-    "name": "Nomor Dada / BIB Lari",
-    "category": "event",
-    "badge": "",
-    "short": "Nomor dada lomba lari / sepeda yang kuat & anti sobek.",
-    "full": "BIB number art paper / tyvek anti air dengan nomor urut, logo sponsor, dan lubang tali. Dikerjakan cepat untuk deadline event.",
-    "specs": [
-      "Bahan anti sobek",
-      "Nomor urut otomatis",
-      "Logo sponsor",
-      "Express H-3 bisa"
-    ],
-    "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=80",
-    "rating": 4.8,
-    "sold": "8rb+"
-  },
-  {
     "id": "kupon-voucher",
     "name": "Kupon / Voucher Undian",
     "category": "event",
