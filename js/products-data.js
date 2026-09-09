@@ -57,6 +57,15 @@ const KGP_PRODUCTS = [
     rating: 4.8, sold: "5rb+"
   },
   {
+    id: "cetak-indoor", name: "Cetak Indoor", category: "bisnis",
+    badge: "Baru",
+    short: "Sticker Vinyl, OneWay, Albatros, PhotoPaper, Roll Banner High-Res.",
+    full: "Cetak indoor high-resolution untuk sticker vinyl, oneway, albatros, photo paper, dan roll banner. Warna tajam dan detail presisi untuk kebutuhan dalam ruangan.",
+    specs: ["Sticker vinyl & transparan", "OneWay & albatros", "Photo paper high-res", "Finishing laminasi"],
+    image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=800&q=80",
+    rating: 4.8, sold: "500+"
+  },
+  {
     id: "plakat-akrilik", name: "Plakat Akrilik Custom", category: "corporate",
     badge: "Eksklusif",
     short: "Penghargaan & kenang-kenangan yang terlihat lebih eksklusif.",
