@@ -62,7 +62,7 @@ const KGP_PRODUCTS = [
     short: "Sticker Vinyl, OneWay, Albatros, PhotoPaper, Roll Banner High-Res.",
     full: "Cetak indoor high-resolution untuk sticker vinyl, oneway, albatros, photo paper, dan roll banner. Warna tajam dan detail presisi untuk kebutuhan dalam ruangan.",
     specs: ["Sticker vinyl & transparan", "OneWay & albatros", "Photo paper high-res", "Finishing laminasi"],
-    image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=800&q=80",
+    image: "assets/cetak-indoor.png",
     rating: 4.8, sold: "500+"
   },
   {
