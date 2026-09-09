@@ -50,7 +50,7 @@ const KGP_PRODUCTS = [
   {
     id: "banner", name: "Cetak Outdoor", category: "bisnis",
     badge: "",
-    short: "Banner / Spanduk / Baliho.",
+    short: "Banner / Spanduk / Baliho / X-Banner / Neon Box / dll.",
     full: "Cetak banner, spanduk, dan baliho outdoor untuk grand opening, promosi toko, dan event. Warna tajam, bahan tebal, finishing mata ayam gratis.",
     specs: ["Frontlite 280gsm", "Korcin 380gsm", "Backlite 380-440gsm"],
     image: "assets/cetak-outdoor.png",
