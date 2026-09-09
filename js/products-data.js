@@ -44,7 +44,7 @@ const KGP_PRODUCTS = [
     short: "Untuk branding produk, kemasan, dan kebutuhan promosi.",
     full: "Sticker vinyl / chromo / transparan, kiss-cut atau die-cut, laminasi doff / glossy. Tahan air tersedia untuk produk makanan, minuman, dan skincare.",
     specs: ["Vinyl / chromo / transparan", "Kiss-cut & die-cut rapi", "Laminasi anti air", "Roll / lembaran"],
-    image: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&w=800&q=80",
+    image: "assets/sticker-label.png",
     rating: 4.9, sold: "10rb+"
   },
   {

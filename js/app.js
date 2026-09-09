@@ -85,7 +85,7 @@
       { t: "Plakat Custom + Box", s: "Corporate & Appreciation", c: "corporate", img: "https://images.unsplash.com/photo-1578269174936-2709b6aeb913?auto=format&fit=crop&w=900&q=80", big: true },
       { t: "Buku Hard / Soft Cover", s: "Custom | Premium", c: "instansi", img: "assets/buku-hard-cover.png" },
       { t: "Kalender Meja", s: "Hard Cover Spiral", c: "corporate", img: "assets/kalender-hc.png" },
-      { t: "Sticker Label", s: "Lembaran / Roll", c: "bisnis", img: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&w=700&q=80" },
+      { t: "Sticker Label", s: "Lembaran / Roll", c: "bisnis", img: "assets/sticker-label.png" },
       { t: "Paper Bag Custom", s: "Desain & Cetak", c: "bisnis", img: "assets/paperbag.png" },
       { t: "Banner", s: "Indoor & Outdoor", c: "event", img: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=700&q=80" },
       { t: "Nota / Kwitansi", s: "Administrasi Bisnis", c: "instansi", img: "assets/nota.png" },
