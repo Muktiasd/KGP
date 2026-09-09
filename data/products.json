@@ -86,18 +86,17 @@
   },
   {
     "id": "banner",
-    "name": "Banner Indoor & Outdoor",
+    "name": "Cetak Outdoor",
     "category": "bisnis",
     "badge": "",
-    "short": "Solusi promosi indoor maupun outdoor dengan hasil cetak tajam.",
-    "full": "Cetak MMT / banner 280–340 gsm untuk grand opening, promosi toko, dan event outdoor. Warna tajam, bahan tebal, finishing mata ayam gratis.",
+    "short": "Banner / Spanduk / Baliho.",
+    "full": "Cetak banner, spanduk, dan baliho outdoor untuk grand opening, promosi toko, dan event. Warna tajam, bahan tebal, finishing mata ayam gratis.",
     "specs": [
-      "Flexi 280 / 340 gsm",
-      "Indoor (high-res) & outdoor",
-      "Mata ayam gratis",
-      "Bisa pasang area Banjarbaru"
+      "Frontlite 280gsm",
+      "Korcin 380gsm",
+      "Backlite 380-440gsm"
     ],
-    "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=800&q=80",
+    "image": "assets/cetak-outdoor.png",
     "rating": 4.8,
     "sold": "5rb+"
   },
