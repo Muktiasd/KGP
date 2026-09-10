@@ -82,7 +82,7 @@
   function renderPortfolio(filter = "semua") {
     const grid = document.getElementById("portGrid");
     const map = [
-      { t: "Plakat Custom + Box", s: "Corporate & Appreciation", c: "corporate", img: "https://images.unsplash.com/photo-1578269174936-2709b6aeb913?auto=format&fit=crop&w=900&q=80", big: true },
+      { t: "Gift Box Custom", s: "Box & Packaging", c: "corporate", img: "assets/gift-box.jpg", big: true },
       { t: "Buku Hard / Soft Cover", s: "Custom | Premium", c: "instansi", img: "assets/buku-hard-cover.png" },
       { t: "Kalender Meja", s: "Hard Cover Spiral", c: "corporate", img: "assets/kalender-hc.png" },
       { t: "Sticker Label", s: "Lembaran / Roll", c: "bisnis", img: "assets/sticker-label.png" },
