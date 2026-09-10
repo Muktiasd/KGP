@@ -18,7 +18,7 @@ const KGP_PRODUCTS = [
     full: "Cetak buku hard cover & soft cover full custom untuk album kenangan sekolah, buku statistik instansi, memory book, hingga company profile. Termasuk layanan layout dan proofing sebelum cetak massal.",
     specs: ["Hard cover + laminasi", "Isi art paper full colour", "Custom nama & logo sekolah", "Jahit benang / binding"],
     image: "assets/buku-hard-cover.png",
-    rating: 4.9, sold: "800+"
+    rating: 4.9, sold: "1rb+"
   },
   {
     id: "kalender-meja", name: "Kalender Meja Hard Cover Spiral", category: "corporate",
@@ -63,7 +63,7 @@ const KGP_PRODUCTS = [
     full: "Cetak indoor high-resolution untuk sticker vinyl, oneway, albatros, photo paper, dan roll banner. Warna tajam dan detail presisi untuk kebutuhan dalam ruangan.",
     specs: ["Sticker vinyl & transparan", "OneWay & albatros", "Photo paper high-res", "Finishing laminasi"],
     image: "assets/cetak-indoor.png",
-    rating: 4.8, sold: "500+"
+    rating: 4.8, sold: "1rb+"
   },
   {
     id: "plakat-akrilik", name: "Plakat Akrilik Custom", category: "corporate",
@@ -72,7 +72,7 @@ const KGP_PRODUCTS = [
     full: "Plakat akrilik UV print + box eksklusif untuk penghargaan karyawan, lomba, wisuda, dan kerjasama corporate. Grafir laser tersedia.",
     specs: ["Akrilik 3–10 mm", "UV print / grafir laser", "Box eksklusif", "Desain gratis"],
     image: "assets/plakat.png",
-    rating: 4.9, sold: "700+"
+    rating: 4.9, sold: "1rb+"
   },
   {
     id: "ganci-akrilik", name: "Merchandise Custom", category: "merchandise",
@@ -99,7 +99,7 @@ const KGP_PRODUCTS = [
     full: "X-banner 60×160 dan roll up 85×200. Cocok untuk pameran, seminar, store branding, dan pendaftaran.",
     specs: ["Bahan albatros / flexi", "Rangka aluminium", "Cetak 1 hari jadi*"],
     image: "assets/xbanner.png",
-    rating: 4.8, sold: "600+"
+    rating: 4.8, sold: "1rb+"
   },
   {
     id: "backdrop", name: "Backdrop Event / Photobooth", category: "event",
@@ -108,7 +108,7 @@ const KGP_PRODUCTS = [
     full: "Cetak backdrop, photobooth, dan wallpaper dinding lebar hingga 5 meter tanpa sambungan terlihat, plus sewa rangka tersedia untuk area Banjarbaru–Banjarmasin.",
     specs: ["Backdrop", "Photobooth", "Wallpaper Dinding"],
     image: "assets/backdrop.jpg",
-    rating: 4.9, sold: "400+"
+    rating: 4.9, sold: "1rb+"
   },
   {
     id: "kupon-voucher", name: "Kupon / Voucher Undian", category: "event",
@@ -162,7 +162,7 @@ const KGP_PRODUCTS = [
     full: "Kalender dinding A3+/A2 6–12 lembar + spiral / klep. Media branding awet untuk corporate dan instansi.",
     specs: ["A3+ / A2", "6 / 12 lembar", "Spiral + gantungan", "Full custom desain"],
     image: "assets/kalender-dinding.png",
-    rating: 4.7, sold: "900+"
+    rating: 4.7, sold: "1rb+"
   },
   {
     id: "map", name: "MAP", category: "instansi",
@@ -171,6 +171,6 @@ const KGP_PRODUCTS = [
     full: "Map folder custom untuk arsip, proposal, dan dokumen resmi instansi maupun bisnis. Bikin setiap penyerahan berkas terlihat rapi dan profesional.",
     specs: ["Art Paper", "Laminasi doff/glossy", "A4 / F4 / A3+"],
     image: "assets/map.png",
-    rating: 4.8, sold: "300+"
+    rating: 4.8, sold: "1rb+"
   }
 ];

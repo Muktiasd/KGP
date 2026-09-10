@@ -31,7 +31,7 @@
     ],
     "image": "assets/buku-hard-cover.png",
     "rating": 4.9,
-    "sold": "800+"
+    "sold": "1rb+"
   },
   {
     "id": "kalender-meja",
@@ -115,7 +115,7 @@
     ],
     "image": "assets/cetak-indoor.png",
     "rating": 4.8,
-    "sold": "500+"
+    "sold": "1rb+"
   },
   {
     "id": "plakat-akrilik",
@@ -132,7 +132,7 @@
     ],
     "image": "assets/plakat.png",
     "rating": 4.9,
-    "sold": "700+"
+    "sold": "1rb+"
   },
   {
     "id": "ganci-akrilik",
@@ -187,7 +187,7 @@
     ],
     "image": "assets/xbanner.png",
     "rating": 4.8,
-    "sold": "600+"
+    "sold": "1rb+"
   },
   {
     "id": "backdrop",
@@ -203,7 +203,7 @@
     ],
     "image": "assets/backdrop.jpg",
     "rating": 4.9,
-    "sold": "400+"
+    "sold": "1rb+"
   },
   {
     "id": "kupon-voucher",
@@ -303,7 +303,7 @@
     ],
     "image": "assets/kalender-dinding.png",
     "rating": 4.7,
-    "sold": "900+"
+    "sold": "1rb+"
   },
   {
     "id": "map",
@@ -319,6 +319,6 @@
     ],
     "image": "assets/map.png",
     "rating": 4.8,
-    "sold": "300+"
+    "sold": "1rb+"
   }
 ]
