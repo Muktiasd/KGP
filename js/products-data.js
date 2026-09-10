@@ -116,52 +116,61 @@ const KGP_PRODUCTS = [
     short: "Kupon doorprize, voucher makan, dan tiket event dengan nomor & porporasi.",
     full: "Kupon art paper dengan nomor seri, porporasi sobek, dan opsi gosok berhadiah untuk event dan promosi.",
     specs: ["Nomor seri", "Porporasi", "Art paper 150 gsm", "Opsi gosok / hologram"],
-    image: "https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?auto=format&fit=crop&w=800&q=80",
+    image: "assets/kupon.png",
     rating: 4.7, sold: "20rb+"
   },
   {
     id: "brosur", name: "Brosur & Leaflet", category: "bisnis",
     badge: "",
-    short: "Media promosi cetak yang tetap efektif untuk traffic offline.",
+    short: "Media promosi dan informasi yang tetap efektif untuk traffic offline.",
     full: "Brosur A5/A4 art paper 150 gsm full colour 2 sisi untuk launching produk, PPDB, dan promo toko.",
-    specs: ["A5 / A4 / lipat 3", "Art paper 150 gsm", "Full colour 2 sisi", "Potong rapi"],
-    image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=800&q=80",
+    specs: ["A5 / A4 / lipat 3", "Art paper 150 gsm", "Full colour 1 sisi & 2 sisi", "Potong rapi"],
+    image: "assets/brosur.png",
     rating: 4.8, sold: "30rb+"
   },
   {
     id: "sertifikat", name: "Sertifikat & Piagam", category: "instansi",
     badge: "",
     short: "Sertifikat resmi dengan kertas premium & cetak nama variabel.",
-    full: "Sertifikat blues white / jasmine + print nama variabel (mail merge) untuk wisuda, pelatihan, dan penghargaan.",
-    specs: ["Kertas jasmine / BW", "Print nama variabel", "Foil emas tersedia", "Map sertifikat tersedia"],
-    image: "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=800&q=80",
+    full: "Sertifikat Art Paper + print nama variabel (mail merge) untuk wisuda, pelatihan, dan penghargaan.",
+    specs: ["Art Paper", "Print nama variabel", "Map sertifikat tersedia"],
+    image: "assets/piagam.png",
     rating: 4.9, sold: "5rb+"
   },
   {
     id: "id-card", name: "ID Card + Lanyard", category: "instansi",
     badge: "",
     short: "ID karyawan, panitia, dan pelajar — rapi & profesional.",
-    full: "ID card PVC + lanyard sablon dengan data variabel foto & nama. Cocok untuk perusahaan, event, dan sekolah.",
-    specs: ["PVC 0,76 mm", "Lanyard sablon", "Data variabel", "Holder + holder custom"],
-    image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=800&q=80",
+    full: "ID card + tali basic dengan lanyard full print custom design foto & nama. Cocok untuk perusahaan, event, dan sekolah.",
+    specs: ["Tali basic", "Lanyard full print", "Custom design", "Holder + holder custom"],
+    image: "assets/lanyard.png",
     rating: 4.8, sold: "2rb+"
   },
   {
-    id: "kartu-nama", name: "Kartu Nama Premium", category: "bisnis",
+    id: "kartu-nama", name: "Kartu Nama", category: "bisnis",
     badge: "",
     short: "Kesan pertama yang mewah untuk relasi bisnis kamu.",
-    full: "Kartu nama art carton 310 gsm + laminasi doff, opsi spot UV & foil emas untuk kesan premium.",
-    specs: ["310 gsm", "Laminasi doff/glossy", "Spot UV / foil", "Sudut tumpul tersedia"],
-    image: "https://images.unsplash.com/photo-1589041127168-9b1915731dc3?auto=format&fit=crop&w=800&q=80",
+    full: "Kartu nama Art Paper + laminasi doff untuk kesan pertama yang premium.",
+    specs: ["Art Paper", "Laminasi doff/glossy", "Sudut tumpul tersedia"],
+    image: "assets/kartu-nama.png",
     rating: 4.9, sold: "1rb+"
   },
   {
-    id: "kalender-dinding", name: "Kalender Dinding & Poster", category: "corporate",
+    id: "kalender-dinding", name: "Kalender Dinding", category: "corporate",
     badge: "",
     short: "Kalender dinding branding yang dipakai setahun penuh.",
     full: "Kalender dinding A3+/A2 6–12 lembar + spiral / klep. Media branding awet untuk corporate dan instansi.",
     specs: ["A3+ / A2", "6 / 12 lembar", "Spiral + gantungan", "Full custom desain"],
-    image: "https://images.unsplash.com/photo-1495364141860-b0d03eccd065?auto=format&fit=crop&w=800&q=80",
+    image: "assets/kalender-dinding.png",
     rating: 4.7, sold: "900+"
+  },
+  {
+    id: "map", name: "MAP", category: "instansi",
+    badge: "Baru",
+    short: "Bikin branding instansi / bisnis kalian tampil lebih formal.",
+    full: "Map folder custom untuk arsip, proposal, dan dokumen resmi instansi maupun bisnis. Bikin setiap penyerahan berkas terlihat rapi dan profesional.",
+    specs: ["Art Paper", "Laminasi doff/glossy", "A4 / F4 / A3+"],
+    image: "assets/map.png",
+    rating: 4.8, sold: "300+"
   }
 ];
