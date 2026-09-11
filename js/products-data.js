@@ -1,9 +1,10 @@
 /* Data produk KGP — 24 produk. Tambah/edit bebas, website otomatis update.
    Kategori: bisnis | event | instansi | corporate | packaging | merchandise | administrasi
+   Multi-kategori: tambah cats: [...] agar produk tampil di beberapa filter.
    Harga tidak ditampilkan — order via tombol Detail → WhatsApp. */
 const KGP_PRODUCTS = [
   {
-    id: "paper-bag-box-corporate", name: "Paper Bag + Box Custom", category: "packaging",
+    id: "paper-bag-box-corporate", name: "Paper Bag + Box Custom", category: "packaging", cats: ["packaging", "instansi"],
     badge: "Produk Unggulan",
     short: "Produksi custom untuk branding & corporate — bahan premium, cetak tajam.",
     full: "Paper bag + box custom untuk kebutuhan branding perusahaan, souvenir, dan hampers. Pilih bahan ArtPaper / ivory, laminasi doff / glossy, tali premium, dan desain sesuai brand book kamu.",
@@ -21,7 +22,7 @@ const KGP_PRODUCTS = [
     rating: 4.9, sold: "1rb+"
   },
   {
-    id: "kalender-meja", name: "Kalender Meja Hard Cover Spiral", category: "corporate",
+    id: "kalender-meja", name: "Kalender Meja Hard Cover Spiral", category: "corporate", cats: ["corporate", "instansi"],
     badge: "Promo",
     short: "Kalender meja custom yang elegan & kokoh — display meja multi fungsi.",
     full: "Kalender meja dudukan hard cover + spiral kawat dengan 12 halaman full colour. Media promosi yang dipakai klien sepanjang tahun di atas meja kerja.",
@@ -48,7 +49,7 @@ const KGP_PRODUCTS = [
     rating: 4.9, sold: "10rb+"
   },
   {
-    id: "banner", name: "Cetak Outdoor", category: "bisnis",
+    id: "banner", name: "Cetak Outdoor", category: "bisnis", cats: ["bisnis", "event", "instansi"],
     badge: "",
     short: "Banner / Spanduk / Baliho / X-Banner / Neon Box / dll.",
     full: "Cetak banner, spanduk, dan baliho outdoor untuk grand opening, promosi toko, dan event. Warna tajam, bahan tebal, finishing mata ayam gratis.",
@@ -57,7 +58,7 @@ const KGP_PRODUCTS = [
     rating: 4.8, sold: "5rb+"
   },
   {
-    id: "cetak-indoor", name: "Cetak Indoor", category: "bisnis",
+    id: "cetak-indoor", name: "Cetak Indoor", category: "bisnis", cats: ["bisnis", "event", "instansi"],
     badge: "Baru",
     short: "Sticker Vinyl, OneWay, Albatros, PhotoPaper, Roll Banner High-Res.",
     full: "Cetak indoor high-resolution untuk sticker vinyl, oneway, albatros, photo paper, dan roll banner. Warna tajam dan detail presisi untuk kebutuhan dalam ruangan.",
@@ -66,7 +67,7 @@ const KGP_PRODUCTS = [
     rating: 4.8, sold: "1rb+"
   },
   {
-    id: "plakat-akrilik", name: "Plakat Akrilik Custom", category: "corporate",
+    id: "plakat-akrilik", name: "Plakat Akrilik Custom", category: "corporate", cats: ["corporate", "instansi"],
     badge: "Eksklusif",
     short: "Penghargaan & kenang-kenangan yang terlihat lebih eksklusif.",
     full: "Plakat akrilik UV print + box eksklusif untuk penghargaan karyawan, lomba, wisuda, dan kerjasama corporate. Grafir laser tersedia.",
@@ -75,7 +76,7 @@ const KGP_PRODUCTS = [
     rating: 4.9, sold: "1rb+"
   },
   {
-    id: "ganci-akrilik", name: "Merchandise Custom", category: "merchandise",
+    id: "ganci-akrilik", name: "Merchandise Custom", category: "merchandise", cats: ["merchandise", "event"],
     badge: "",
     short: "Berbagai souvenir custom untuk event, bisnis, dan instansi.",
     full: "Berbagai merchandise custom — keychain, mug, nametag resin, bross akrilik, pin, medali akrilik, kipas kerang, tumblr, dan lainnya — untuk event, bisnis, dan instansi.",
@@ -129,7 +130,7 @@ const KGP_PRODUCTS = [
     rating: 4.8, sold: "30rb+"
   },
   {
-    id: "sertifikat", name: "Sertifikat & Piagam", category: "instansi",
+    id: "sertifikat", name: "Sertifikat & Piagam", category: "instansi", cats: ["instansi", "event"],
     badge: "",
     short: "Sertifikat resmi dengan kertas premium & cetak nama variabel.",
     full: "Sertifikat Art Paper + print nama variabel (mail merge) untuk wisuda, pelatihan, dan penghargaan.",
@@ -138,7 +139,7 @@ const KGP_PRODUCTS = [
     rating: 4.9, sold: "5rb+"
   },
   {
-    id: "id-card", name: "ID Card + Lanyard", category: "instansi",
+    id: "id-card", name: "ID Card + Lanyard", category: "instansi", cats: ["instansi", "event"],
     badge: "",
     short: "ID karyawan, panitia, dan pelajar — rapi & profesional.",
     full: "ID card + tali basic dengan lanyard full print custom design foto & nama. Cocok untuk perusahaan, event, dan sekolah.",
@@ -156,7 +157,7 @@ const KGP_PRODUCTS = [
     rating: 4.9, sold: "1rb+"
   },
   {
-    id: "kalender-dinding", name: "Kalender Dinding", category: "corporate",
+    id: "kalender-dinding", name: "Kalender Dinding", category: "corporate", cats: ["corporate", "instansi"],
     badge: "",
     short: "Kalender dinding branding yang dipakai setahun penuh.",
     full: "Kalender dinding A3+/A2 6–12 lembar + spiral / klep. Media branding awet untuk corporate dan instansi.",

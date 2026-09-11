@@ -71,7 +71,8 @@
 
   function renderCatalog() {
     const grid = document.getElementById("productGrid");
-    const list = PRODUCTS.filter((p) => (activeCat === "semua" || p.category === activeCat) &&
+    const inCat = (p) => activeCat === "semua" || p.category === activeCat || (Array.isArray(p.cats) && p.cats.includes(activeCat));
+    const list = PRODUCTS.filter((p) => inCat(p) &&
       (!query || (p.name + " " + (p.short || "") + " " + (p.full || "")).toLowerCase().includes(query)));
     grid.innerHTML = list.length ? list.map(cardHTML).join("") :
       `<div style="grid-column:1/-1;text-align:center;padding:40px;background:#fff;border:1px dashed var(--line);border-radius:18px">Produk tidak ditemukan. Coba kata kunci lain atau <a href="${waLink("Halo KGP! Saya cari produk yang tidak ada di katalog.")}" target="_blank" style="color:var(--navy);font-weight:800">tanya langsung via WA →</a></div>`;
