@@ -16,7 +16,7 @@ const KGP_CONFIG = {
   email: "kembarprinting022@gmail.com",
   phoneDisplay: "0822 5488 7729",
   address: "Banjarbaru, Kalimantan Selatan",
-  hours: "Senin–Sabtu • 08.00–17.00 WITA",
+  hours: "Senin-Sabtu. 09.00-17.00",
   mapsUrl: "https://maps.app.goo.gl/7oLLcDQhhKLDeuBe9",
 
   social: {

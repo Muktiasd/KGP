@@ -7,7 +7,7 @@ const KGP_PRODUCTS = [
     id: "paper-bag-box-corporate", name: "Paper Bag + Box Custom", category: "packaging", cats: ["packaging", "instansi"],
     badge: "Produk Unggulan",
     short: "Produksi custom untuk branding & corporate — bahan premium, cetak tajam.",
-    full: "Paper bag + box custom untuk kebutuhan branding perusahaan, souvenir, dan hampers. Pilih bahan ArtPaper / ivory, laminasi doff / glossy, tali premium, dan desain sesuai brand book kamu.",
+    full: "Paper bag + box custom untuk kebutuhan branding perusahaan, souvenir, dan hampers. Pilih bahan ArtPaper / Ciwi, laminasi doff / glossy, tali premium, dan desain sesuai brand book kamu.",
     specs: ["ArtPaper 260-280 gsm", "Laminasi doff / glossy", "Tali kur / pita satin", "Sablon & full colour"],
     image: "assets/paperbag.png",
     rating: 4.9, sold: "2rb+"
@@ -106,7 +106,7 @@ const KGP_PRODUCTS = [
     id: "backdrop", name: "Backdrop Event / Photobooth", category: "event",
     badge: "",
     short: "Backdrop panggung & photobooth untuk wedding, seminar, dan gathering.",
-    full: "Cetak backdrop, photobooth, dan wallpaper dinding lebar hingga 5 meter tanpa sambungan terlihat, plus sewa rangka tersedia untuk area Banjarbaru–Banjarmasin.",
+    full: "Cetak backdrop, photobooth, dan wallpaper dinding lebar hingga 5 meter.",
     specs: ["Backdrop", "Photobooth", "Wallpaper Dinding"],
     image: "assets/backdrop.jpg",
     rating: 4.9, sold: "1rb+"
@@ -115,7 +115,7 @@ const KGP_PRODUCTS = [
     id: "kupon-voucher", name: "Kupon / Voucher Undian", category: "event",
     badge: "",
     short: "Kupon doorprize, voucher makan, dan tiket event dengan nomor & porporasi.",
-    full: "Kupon art paper dengan nomor seri, porporasi sobek, dan opsi gosok berhadiah untuk event dan promosi.",
+    full: "Kupon art paper dengan nomor seri dan porporasi sobek untuk event dan promosi.",
     specs: ["Nomor seri", "Porporasi", "Art paper 150 gsm", "Opsi gosok / hologram"],
     image: "assets/kupon.png",
     rating: 4.7, sold: "20rb+"
