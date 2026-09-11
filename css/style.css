@@ -258,4 +258,9 @@ footer a:hover{color:#fff}
   .card-actions{grid-template-columns:1fr}
   .featured,.cta-final{padding:24px}
   .topbar-right a.hide-m{display:none}
+  .logo-img,.foot-logo{width:min(220px,100%)}
+  footer .logo{flex-direction:column;align-items:flex-start;gap:8px}
+  .clients{flex-wrap:wrap;justify-content:center;overflow:visible;gap:12px}
+  .clients>span:first-child{flex:0 0 100%;text-align:center}
+  .clients img{max-height:26px;max-width:88px}
 }
