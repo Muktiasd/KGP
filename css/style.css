@@ -191,7 +191,7 @@ section{padding:84px 0;position:relative}
 .testi-source.shopee{background:#fef2f2;color:#b91c1c;border-color:#fecaca}
 .testi-user{display:flex;gap:10px;align-items:center;margin-top:auto}
 .avatar{width:44px;height:44px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center;font-weight:900}
-.clients{display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:nowrap;overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:18px;padding:10px 16px;margin-top:18px;font-weight:900;color:var(--navy);font-size:18px}
+.clients{display:flex;gap:6px;align-items:center;justify-content:space-between;flex-wrap:nowrap;overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:18px;padding:8px 12px;margin-top:18px;font-weight:900;color:var(--navy);font-size:18px}
 .clients img{width:auto;height:auto;max-height:28px;max-width:100px;object-fit:contain;flex:0 0 auto}
 
 /* FAQ */
