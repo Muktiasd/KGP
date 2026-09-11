@@ -82,7 +82,7 @@
   function renderPortfolio(filter = "semua") {
     const grid = document.getElementById("portGrid");
     const map = [
-      { t: "Gift Box Custom", s: "Box & Packaging", c: "corporate", img: "assets/gift-box.jpg", big: true },
+      { t: "Gift Box Custom", s: "Box & Packaging", c: "corporate", img: "assets/gift-box-new.png", big: true },
       { t: "Buku Hard / Soft Cover", s: "Custom | Premium", c: "instansi", img: "assets/buku-hard-cover.png" },
       { t: "Kalender Meja", s: "Hard Cover Spiral", c: "corporate", img: "assets/kalender-hc.png" },
       { t: "Sticker Label", s: "Lembaran / Roll", c: "bisnis", img: "assets/sticker-label.png" },
